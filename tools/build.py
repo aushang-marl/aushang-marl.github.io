@@ -188,6 +188,8 @@ def poster_html(n, svg):
     title_px = 80 if len(p["title"]) <= 13 else max(48, int(80 * 13 / len(p["title"])))
     emoji_px = 90 if p.get("items") else 170
     extra = ".kicker{margin-top:2mm!important}.note{font-size:20px!important;margin-top:5mm!important}.date{font-size:34px!important}.main{padding-bottom:4mm!important}" if p.get("items") else ""
+    if len(p.get("items", [])) >= 4:
+        extra += ".item{padding:2.5mm 5mm!important}.item b{font-size:22px!important}.item .w{font-size:17px!important}.item .p{font-size:14px!important}.items{gap:3mm!important;margin-top:5mm!important}h1{margin:2mm 0 3mm!important}"
     return f"""<!doctype html><html lang="de"><head><meta charset="utf-8"><title>{e(p['title'])} – Plakat</title>
 {FONTS}<style>
 @page{{size:A4;margin:0}}*{{box-sizing:border-box}}

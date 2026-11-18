@@ -1,0 +1,209 @@
+{
+  "slug": "marl-entdecken",
+  "emoji": "🗺️",
+  "theme": "fresh",
+  "poster": {
+    "kicker": "Kostenlos · für alle",
+    "title": "Marl entdecken",
+    "date": "Ohne Eintritt – das ganze Jahr",
+    "items": [
+      ["Kunst unter freiem Himmel", "Über 100 Skulpturen – immer offen", "Rund um Rathaus und City-See, Marl-Mitte"],
+      ["Stadtrundgang & Parks", "5,4 km · ca. 1¼ Stunden · leicht", "Start: Bahnhof Marl-Mitte · City-See, Theater, St. Georg, Volkspark"],
+      ["Heimatmuseum Wassermühle", "Sonntags 14–17 Uhr · Eintritt frei", "Am Volkspark 14"],
+      ["Wochenmarkt", "Hüls: Di + Fr · Brassert: Mi + Sa · 8–12:30 Uhr", "Frisches Obst & Gemüse – Deutsch üben beim Einkaufen"]
+    ],
+    "note": "Anfahrt: S9 oder Bus bis „Marl Mitte“."
+  },
+  "langs": {
+    "de": {
+      "title": "Marl entdecken – kostenlos",
+      "subtitle": "Schöne Orte in deiner Stadt. Ohne Eintritt, das ganze Jahr.",
+      "facts": [
+        ["market", "Kunst unter freiem Himmel: Über 100 Skulpturen stehen rund um das Rathaus und den City-See in Marl-Mitte. Immer offen und kostenlos."],
+        ["market", "Stadtrundgang: 5,4 km, etwa 1¼ Stunden, leicht. Start und Ziel am Bahnhof Marl-Mitte. Vorbei am City-See, am Theater, an der Kirche St. Georg und durch den Volkspark (Parkweg 26) mit Teichen und Spielplatz."],
+        ["market", "Heimatmuseum in der alten Wassermühle (Am Volkspark 14): sonntags 14–17 Uhr, Eintritt frei."],
+        ["market", "Wochenmarkt: Hüls dienstags und freitags, Brassert mittwochs und samstags, jeweils 8–12:30 Uhr."]
+      ],
+      "text": "Anfahrt: Mit der S-Bahn S9 oder vielen Buslinien bis „Marl Mitte“. Von dort sind Skulpturen, City-See und der Rundgang zu Fuß erreichbar.",
+      "tips": ["Gute Schuhe und Wasser mitnehmen", "Skulpturen nicht beklettern", "Müll in den Mülleimer", "Auf dem Markt: Preise stehen meist am Stand – fragen ist normal"],
+      "bg_title": "Warum ist Marl besonders?",
+      "bg_text": "Marl wird auch „Stadt der Skulpturen“ genannt: Überall in der Innenstadt stehen Kunstwerke von bekannten Künstlern – draußen und kostenlos. Das Rathaus mit seinen Türmen ist ein Denkmal moderner Architektur. In Deutschland gehen viele Menschen am Wochenende spazieren – das ist eine schöne Art, die Stadt und die Nachbarn kennenzulernen.",
+      "links": [
+        ["link", "Skulpturen-Karte (mit „in meiner Nähe“)", "https://skulpturenmarl.de"],
+        ["link", "Stadtrundgang Marl: Route", "https://www.ich-geh-wandern.de/stadtrundgang-marl"],
+        ["link", "Wochenmärkte in Marl", "https://marl.de/leben-wohnen/einkaufen/wochenmaerkte"]
+      ]
+    },
+    "ar": {
+      "title": "اكتشف مارل – مجانًا",
+      "subtitle": "أماكن جميلة في مدينتك. بدون رسوم دخول، طوال السنة.",
+      "facts": [
+        ["market", "فن في الهواء الطلق: أكثر من 100 تمثال حول مبنى البلدية وبحيرة سيتي-زيه في وسط مارل. مفتوح دائمًا ومجاني."],
+        ["market", "جولة في المدينة: 5.4 كم، حوالي ساعة وربع، سهلة. البداية والنهاية عند محطة Marl-Mitte. تمرّ بالبحيرة والمسرح وكنيسة القديس جورج وحديقة فولكسبارك (Parkweg 26) فيها برك وملعب أطفال."],
+        ["market", "متحف التراث في الطاحونة المائية القديمة (Am Volkspark 14): أيام الأحد 14–17، الدخول مجاني."],
+        ["market", "السوق الأسبوعي: هولس الثلاثاء والجمعة، براسرت الأربعاء والسبت، من 8 حتى 12:30."]
+      ],
+      "text": "الوصول: بالقطار S9 أو بالحافلات حتى محطة «Marl Mitte». من هناك يمكن الوصول إلى التماثيل والبحيرة والجولة سيرًا على الأقدام.",
+      "tips": ["أحضروا أحذية مريحة وماء", "لا تتسلقوا التماثيل", "ضعوا القمامة في السلة", "في السوق: الأسعار مكتوبة غالبًا عند البسطة، والسؤال أمر عادي"],
+      "bg_title": "لماذا مارل مميزة؟",
+      "bg_text": "تُسمّى مارل «مدينة التماثيل»: في كل مكان في وسط المدينة أعمال فنية لفنانين مشهورين، في الخارج ومجانًا. مبنى البلدية بأبراجه معلم من معالم العمارة الحديثة. في ألمانيا يتنزّه كثير من الناس في عطلة نهاية الأسبوع، وهي طريقة جميلة للتعرّف على المدينة والجيران.",
+      "links": [
+        ["link", "خريطة التماثيل", "https://skulpturenmarl.de"],
+        ["link", "مسار الجولة في المدينة", "https://www.ich-geh-wandern.de/stadtrundgang-marl"],
+        ["link", "الأسواق الأسبوعية في مارل", "https://marl.de/leben-wohnen/einkaufen/wochenmaerkte"]
+      ]
+    },
+    "en": {
+      "title": "Discover Marl – for free",
+      "subtitle": "Beautiful places in your town. No entrance fee, all year round.",
+      "facts": [
+        ["market", "Art in the open air: more than 100 sculptures around the town hall and the City-See lake in Marl-Mitte. Always open and free."],
+        ["market", "City walk: 5.4 km, about 1¼ hours, easy. Start and finish at Marl-Mitte station. Past the City-See, the theatre, St. George's Church and through the Volkspark (Parkweg 26) with ponds and a playground."],
+        ["market", "Local history museum in the old water mill (Am Volkspark 14): Sundays 2–5 pm, free entry."],
+        ["market", "Weekly market: Hüls on Tuesdays and Fridays, Brassert on Wednesdays and Saturdays, 8 am–12:30 pm."]
+      ],
+      "text": "Getting there: S-Bahn S9 or many bus lines to “Marl Mitte”. From there, the sculptures, the lake and the walk are reachable on foot.",
+      "tips": ["Bring good shoes and water", "Do not climb on the sculptures", "Put rubbish in the bin", "At the market prices are usually shown – asking is normal"],
+      "bg_title": "Why is Marl special?",
+      "bg_text": "Marl is also called the “town of sculptures”: artworks by famous artists stand all over the town centre – outdoors and free. The town hall with its towers is a landmark of modern architecture. In Germany many people go for a walk at the weekend – a nice way to get to know the town and your neighbours.",
+      "links": [
+        ["link", "Sculpture map (with “near me”)", "https://skulpturenmarl.de"],
+        ["link", "City walk route", "https://www.ich-geh-wandern.de/stadtrundgang-marl"],
+        ["link", "Weekly markets in Marl", "https://marl.de/leben-wohnen/einkaufen/wochenmaerkte"]
+      ]
+    },
+    "fr": {
+      "title": "Découvrir Marl – gratuitement",
+      "subtitle": "De beaux endroits dans ta ville. Sans entrée payante, toute l'année.",
+      "facts": [
+        ["market", "Art en plein air : plus de 100 sculptures autour de l'hôtel de ville et du lac City-See, à Marl-Mitte. Toujours ouvert et gratuit."],
+        ["market", "Promenade en ville : 5,4 km, environ 1 h 15, facile. Départ et arrivée à la gare Marl-Mitte. Le long du City-See, du théâtre, de l'église Saint-Georges et à travers le Volkspark (Parkweg 26) avec étangs et aire de jeux."],
+        ["market", "Musée local dans l'ancien moulin à eau (Am Volkspark 14) : le dimanche de 14 h à 17 h, entrée gratuite."],
+        ["market", "Marché hebdomadaire : Hüls le mardi et le vendredi, Brassert le mercredi et le samedi, de 8 h à 12 h 30."]
+      ],
+      "text": "Accès : S-Bahn S9 ou de nombreux bus jusqu'à « Marl Mitte ». De là, sculptures, lac et promenade sont accessibles à pied.",
+      "tips": ["Prenez de bonnes chaussures et de l'eau", "Ne grimpez pas sur les sculptures", "Jetez les déchets à la poubelle", "Au marché, les prix sont souvent affichés – demander est normal"],
+      "bg_title": "Pourquoi Marl est-elle spéciale ?",
+      "bg_text": "Marl est appelée la « ville des sculptures » : des œuvres d'artistes célèbres se trouvent partout dans le centre – en plein air et gratuitement. L'hôtel de ville avec ses tours est un monument de l'architecture moderne. En Allemagne, beaucoup de gens se promènent le week-end – une belle façon de connaître la ville et les voisins.",
+      "links": [
+        ["link", "Carte des sculptures", "https://skulpturenmarl.de"],
+        ["link", "Itinéraire de la promenade", "https://www.ich-geh-wandern.de/stadtrundgang-marl"],
+        ["link", "Marchés hebdomadaires à Marl", "https://marl.de/leben-wohnen/einkaufen/wochenmaerkte"]
+      ]
+    },
+    "ku": {
+      "title": "Marlê nas bike – belaş",
+      "subtitle": "Cihên xweş li bajarê te. Bê pereyê ketinê, tevahiya salê.",
+      "facts": [
+        ["market", "Huner li hewaya vekirî: Zêdetirî 100 peyker li dora şaredariyê û gola City-See li Marl-Mitte hene. Her dem vekirî û belaş."],
+        ["market", "Gera bajêr: 5,4 km, nêzîkî 1 saet û çaryek, hêsan. Destpêk û dawî li stasyona Marl-Mitte. Di ber City-See, şano û Dêra St. Georg re û di nav Volkspark (Parkweg 26) re, bi gol û qada lîstikê ya zarokan."],
+        ["market", "Mûzeya herêmî di aşê avê yê kevn de (Am Volkspark 14): Yekşeman saet 14–17, ketin belaş e."],
+        ["market", "Bazara heftane: Hüls Sêşem û În, Brassert Çarşem û Şemî, saet 8–12:30."]
+      ],
+      "text": "Çûyîn: Bi trêna S9 an gelek otobûsan heta «Marl Mitte». Ji wir peyker, gol û ger bi peyatî tên gihîştin.",
+      "tips": ["Pêlavên baş û av bi xwe re bînin", "Hilnekişin ser peykeran", "Çopê bavêjin selikê", "Li bazarê bihayên bi gelemperî li ber standê hene – pirsîn asayî ye"],
+      "bg_title": "Çima Marl taybet e?",
+      "bg_text": "Ji Marlê re «bajarê peykeran» jî tê gotin: li her derê navenda bajêr berhemên hunermendên navdar hene – li derve û belaş. Şaredarî bi bircên xwe nîşaneke mîmariya nûjen e. Li Almanyayê gelek kes dawiya hefteyê diçin meşê – ev rêyeke xweş e ku mirov bajêr û cîranan nas bike.",
+      "links": [
+        ["link", "Nexşeya peykeran", "https://skulpturenmarl.de"],
+        ["link", "Rêya gera bajêr", "https://www.ich-geh-wandern.de/stadtrundgang-marl"],
+        ["link", "Bazarên heftane li Marlê", "https://marl.de/leben-wohnen/einkaufen/wochenmaerkte"]
+      ]
+    },
+    "tr": {
+      "title": "Marl'ı keşfet – ücretsiz",
+      "subtitle": "Şehrindeki güzel yerler. Giriş ücreti yok, bütün yıl.",
+      "facts": [
+        ["market", "Açık havada sanat: Marl-Mitte'de belediye binası ve City-See gölü çevresinde 100'den fazla heykel var. Her zaman açık ve ücretsiz."],
+        ["market", "Şehir yürüyüşü: 5,4 km, yaklaşık 1 saat 15 dakika, kolay. Başlangıç ve bitiş Marl-Mitte istasyonu. City-See, tiyatro ve St. Georg Kilisesi'nin önünden geçip göletleri ve çocuk oyun alanı olan Volkspark'ın (Parkweg 26) içinden geçiyor."],
+        ["market", "Eski su değirmenindeki yerel tarih müzesi (Am Volkspark 14): Pazar günleri 14–17, giriş ücretsiz."],
+        ["market", "Haftalık pazar: Hüls salı ve cuma, Brassert çarşamba ve cumartesi, 8–12:30 arası."]
+      ],
+      "text": "Ulaşım: S9 treni ya da birçok otobüs hattıyla «Marl Mitte» durağına. Oradan heykellere, göle ve yürüyüş rotasına yürüyerek gidilir.",
+      "tips": ["Rahat ayakkabı ve su alın", "Heykellerin üzerine çıkmayın", "Çöpleri çöp kutusuna atın", "Pazarda fiyatlar genelde tezgâhta yazar – sormak normaldir"],
+      "bg_title": "Marl neden özel?",
+      "bg_text": "Marl'a «heykeller şehri» de denir: Şehir merkezinin her yerinde ünlü sanatçıların eserleri var – açık havada ve ücretsiz. Kuleleriyle belediye binası modern mimarinin önemli bir anıtıdır. Almanya'da birçok insan hafta sonu yürüyüşe çıkar – bu, şehri ve komşuları tanımanın güzel bir yoludur.",
+      "links": [
+        ["link", "Heykel haritası", "https://skulpturenmarl.de"],
+        ["link", "Şehir yürüyüşü rotası", "https://www.ich-geh-wandern.de/stadtrundgang-marl"],
+        ["link", "Marl'daki haftalık pazarlar", "https://marl.de/leben-wohnen/einkaufen/wochenmaerkte"]
+      ]
+    },
+    "sq": {
+      "title": "Zbulo Marl-in – falas",
+      "subtitle": "Vende të bukura në qytetin tënd. Pa biletë hyrjeje, gjithë vitin.",
+      "facts": [
+        ["market", "Art në ajër të hapur: mbi 100 skulptura rreth bashkisë dhe liqenit City-See në Marl-Mitte. Gjithmonë e hapur dhe falas."],
+        ["market", "Shëtitje në qytet: 5,4 km, rreth 1 orë e 15 minuta, e lehtë. Nisja dhe mbërritja te stacioni Marl-Mitte. Kalon pranë City-See, teatrit, kishës St. Georg dhe nëpër Volkspark (Parkweg 26) me pellgje dhe kënd lojërash."],
+        ["market", "Muzeu vendor në mullirin e vjetër të ujit (Am Volkspark 14): të dielave 14–17, hyrja falas."],
+        ["market", "Tregu javor: Hüls të martën dhe të premten, Brassert të mërkurën dhe të shtunën, 8–12:30."]
+      ],
+      "text": "Si të shkoni: me trenin S9 ose me shumë autobusë deri te «Marl Mitte». Prej andej skulpturat, liqeni dhe shëtitja arrihen në këmbë.",
+      "tips": ["Merrni këpucë të mira dhe ujë", "Mos u ngjitni mbi skulptura", "Mbeturinat në kosh", "Në treg çmimet zakonisht janë të shkruara – të pyesësh është normale"],
+      "bg_title": "Pse është Marl i veçantë?",
+      "bg_text": "Marl quhet edhe «qyteti i skulpturave»: në gjithë qendrën ka vepra të artistëve të njohur – jashtë dhe falas. Bashkia me kullat e saj është monument i arkitekturës moderne. Në Gjermani shumë njerëz dalin shëtitje në fundjavë – një mënyrë e bukur për të njohur qytetin dhe fqinjët.",
+      "links": [
+        ["link", "Harta e skulpturave", "https://skulpturenmarl.de"],
+        ["link", "Rruga e shëtitjes", "https://www.ich-geh-wandern.de/stadtrundgang-marl"],
+        ["link", "Tregjet javore në Marl", "https://marl.de/leben-wohnen/einkaufen/wochenmaerkte"]
+      ]
+    },
+    "ru": {
+      "title": "Открой для себя Марль – бесплатно",
+      "subtitle": "Красивые места в твоём городе. Без платы за вход, круглый год.",
+      "facts": [
+        ["market", "Искусство под открытым небом: более 100 скульптур вокруг ратуши и озера City-See в центре Марля. Всегда открыто и бесплатно."],
+        ["market", "Прогулка по городу: 5,4 км, около 1 ч 15 мин, легко. Старт и финиш у вокзала Marl-Mitte. Мимо озера, театра, церкви Святого Георгия и через Фолькспарк (Parkweg 26) с прудами и детской площадкой."],
+        ["market", "Краеведческий музей в старой водяной мельнице (Am Volkspark 14): по воскресеньям 14–17, вход бесплатный."],
+        ["market", "Еженедельный рынок: Хюльс по вторникам и пятницам, Брассерт по средам и субботам, 8:00–12:30."]
+      ],
+      "text": "Как добраться: электричка S9 или многие автобусы до «Marl Mitte». Оттуда до скульптур, озера и маршрута можно дойти пешком.",
+      "tips": ["Возьмите удобную обувь и воду", "Не залезайте на скульптуры", "Мусор – в урну", "На рынке цены обычно написаны – спрашивать нормально"],
+      "bg_title": "Чем особенный Марль?",
+      "bg_text": "Марль называют «городом скульптур»: по всему центру стоят работы известных художников – на улице и бесплатно. Ратуша с башнями – памятник современной архитектуры. В Германии многие гуляют по выходным – это хороший способ узнать город и соседей.",
+      "links": [
+        ["link", "Карта скульптур", "https://skulpturenmarl.de"],
+        ["link", "Маршрут прогулки", "https://www.ich-geh-wandern.de/stadtrundgang-marl"],
+        ["link", "Еженедельные рынки в Марле", "https://marl.de/leben-wohnen/einkaufen/wochenmaerkte"]
+      ]
+    },
+    "fa": {
+      "title": "مارل را کشف کن – رایگان",
+      "subtitle": "جاهای زیبا در شهر تو. بدون بلیت ورودی، در تمام سال.",
+      "facts": [
+        ["market", "هنر در فضای باز: بیش از ۱۰۰ مجسمه در اطراف ساختمان شهرداری و دریاچهٔ سیتی‌زه در مرکز مارل. همیشه باز و رایگان."],
+        ["market", "گردش در شهر: ۵٫۴ کیلومتر، حدود یک ساعت و ربع، آسان. شروع و پایان در ایستگاه Marl-Mitte. از کنار دریاچه، تئاتر و کلیسای سنت گئورگ و از میان فولکس‌پارک (Parkweg 26) با برکه‌ها و زمین بازی کودکان."],
+        ["market", "موزهٔ محلی در آسیاب آبی قدیمی (Am Volkspark 14): یکشنبه‌ها ساعت ۱۴ تا ۱۷، ورود رایگان."],
+        ["market", "بازار هفتگی: هولس سه‌شنبه و جمعه، براسرت چهارشنبه و شنبه، ساعت ۸ تا ۱۲:۳۰."]
+      ],
+      "text": "رسیدن: با قطار S9 یا اتوبوس‌های زیادی تا ایستگاه «Marl Mitte». از آنجا مجسمه‌ها، دریاچه و مسیر گردش پیاده در دسترس است.",
+      "tips": ["کفش راحت و آب همراه بیاورید", "از مجسمه‌ها بالا نروید", "زباله را در سطل بیندازید", "در بازار قیمت‌ها معمولاً نوشته شده – پرسیدن عادی است"],
+      "bg_title": "چرا مارل خاص است؟",
+      "bg_text": "به مارل «شهر مجسمه‌ها» هم می‌گویند: در سراسر مرکز شهر آثار هنرمندان مشهور هست – در فضای باز و رایگان. ساختمان شهرداری با برج‌هایش یکی از بناهای مهم معماری مدرن است. در آلمان بسیاری از مردم آخر هفته پیاده‌روی می‌کنند – راهی خوب برای آشنایی با شهر و همسایه‌ها.",
+      "links": [
+        ["link", "نقشهٔ مجسمه‌ها", "https://skulpturenmarl.de"],
+        ["link", "مسیر گردش در شهر", "https://www.ich-geh-wandern.de/stadtrundgang-marl"],
+        ["link", "بازارهای هفتگی مارل", "https://marl.de/leben-wohnen/einkaufen/wochenmaerkte"]
+      ]
+    },
+    "zh": {
+      "title": "免费探索马尔",
+      "subtitle": "你所在城市的美丽地方。全年免门票。",
+      "facts": [
+        ["market", "露天艺术：在马尔市中心（Marl-Mitte）市政厅和城市湖（City-See）周围有100多座雕塑。全天开放，免费。"],
+        ["market", "城市步行：5.4公里，约1小时15分钟，轻松。起点和终点都在Marl-Mitte火车站。途经城市湖、剧院、圣乔治教堂，穿过人民公园（Parkweg 26），公园里有池塘和儿童游乐场。"],
+        ["market", "老水磨坊里的地方历史博物馆（Am Volkspark 14）：每周日14–17点，免费入场。"],
+        ["market", "每周集市：许尔斯（Hüls）周二和周五，布拉塞特（Brassert）周三和周六，8:00–12:30。"]
+      ],
+      "text": "交通：乘S9城铁或多条公交线路到“Marl Mitte”站。从那里步行即可到达雕塑、湖边和步行路线。",
+      "tips": ["请穿舒适的鞋，带上水", "请不要攀爬雕塑", "垃圾请扔进垃圾桶", "集市上价格通常写在摊位上，询问很正常"],
+      "bg_title": "马尔有什么特别？",
+      "bg_text": "马尔也被称为“雕塑之城”：市中心到处都有著名艺术家的作品，露天展示，完全免费。带塔楼的市政厅是现代建筑的重要古迹。在德国，很多人周末会去散步，这是认识城市和邻居的好方法。",
+      "links": [
+        ["link", "雕塑地图", "https://skulpturenmarl.de"],
+        ["link", "城市步行路线", "https://www.ich-geh-wandern.de/stadtrundgang-marl"],
+        ["link", "马尔每周集市", "https://marl.de/leben-wohnen/einkaufen/wochenmaerkte"]
+      ]
+    }
+  }
+}
