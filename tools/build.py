@@ -160,7 +160,7 @@ function show(c){{
   setBtn(false);
   $('picker').classList.add('hidden');$('view').classList.remove('hidden');scrollTo(0,0);$('listenBtn').focus();
 }}
-function route(){{const c=location.hash.slice(1);if(D.langs[c])show(c);else{{document.documentElement.dir='ltr';$('view').classList.add('hidden');$('picker').classList.remove('hidden')}}}}
+function route(){{stopAudio();const c=location.hash.slice(1);if(D.langs[c])show(c);else{{document.documentElement.dir='ltr';$('view').classList.add('hidden');$('picker').classList.remove('hidden')}}}}
 $('changeBtn').onclick=()=>{{stopAudio();location.hash=''}};
 $('listenBtn').onclick=()=>{{
   if(playing()){{stopAudio();return}}
@@ -168,6 +168,10 @@ $('listenBtn').onclick=()=>{{
   if(window.speechSynthesis){{const u=new SpeechSynthesisUtterance(SPEAK);u.lang=D.bcp[CUR]||CUR;u.onend=()=>setBtn(false);speechSynthesis.speak(u);setBtn(true)}}
 }};
 addEventListener('hashchange',route);
+// Stop the voice as soon as the reader leaves this language view: any link, back button, tab switch or closing the page.
+document.addEventListener('click',e=>{{if(e.target.closest('a'))stopAudio()}},true);
+addEventListener('pagehide',stopAudio);
+document.addEventListener('visibilitychange',()=>{{if(document.hidden)stopAudio()}});
 // Always ask for the language first when the QR code is scanned (no hash in the QR URL).
 route();
 </script>
