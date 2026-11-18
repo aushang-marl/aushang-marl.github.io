@@ -280,6 +280,9 @@ def build_index():
     for f in sorted((ROOT / "notices").glob("*.json"), reverse=True):
         n = json.loads(f.read_text())
         items.append(f'<li><a href="{rel(n["slug"])}/">{n.get("emoji","")} {html.escape(n["langs"]["de"]["title"])}</a></li>')
+    t = ROOT / "data" / "termine.json"
+    if t.exists():
+        items.insert(0, f'<li><a href="{rel(json.loads(t.read_text())["slug"])}/">🗓️ Aktuelle Termine</a></li>')
     (ROOT / "index.html").write_text(f"""<!doctype html><html lang="de"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Aushänge</title>
 <style>body{{font-family:system-ui,sans-serif;max-width:600px;margin:30px auto;padding:0 16px}}li{{margin:10px 0;font-size:20px}}</style></head>

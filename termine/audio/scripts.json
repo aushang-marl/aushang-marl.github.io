@@ -1,0 +1,802 @@
+{
+ "de-intro": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Aktuelle Termine. Hier stehen immer die nächsten Termine in Marl und Umgebung. Vergangene Termine verschwinden automatisch."
+ },
+ "de-weihnachtsmarkt-re-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Weihnachtsmarkt Recklinghausen. Do., 19. November – Mi., 23. Dezember. Altstadt Recklinghausen (Altstadtmarkt, St. Peter, Palais Vest). Großer Weihnachtsmarkt auf drei Plätzen in der Altstadt. Sonntag bis Donnerstag 12–21 Uhr, Freitag und Samstag 12–22 Uhr."
+ },
+ "de-totensonntag-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Totensonntag. So., 22. November. Christlicher Gedenktag für die Verstorbenen. Ein stiller Tag: keine lauten Feiern, viele Menschen besuchen Friedhöfe."
+ },
+ "de-weihnachtsmarkt-alt-marl-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Weihnachtsmarkt Alt-Marl. Sa., 28. – So., 29. November. Rund um St. Georg, Alt-Marl. Samstag ab 15 Uhr, Sonntag 12–18 Uhr. Samstag um 17 Uhr kommt der Nikolaus, mit Laternenumzug für Kinder."
+ },
+ "de-advent1-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "1. Advent. So., 29. November. Die Adventszeit beginnt: die vier Wochen vor Weihnachten. Jeden Sonntag wird eine Kerze mehr am Adventskranz angezündet."
+ },
+ "de-welt-aids-tag-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Welt-Aids-Tag. Di., 1. Dezember. Tag der Solidarität mit Menschen mit HIV. Beratung und HIV-Test beim Gesundheitsamt sind meist kostenlos und anonym."
+ },
+ "de-marler-weihnacht-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Marler Weihnacht im Klinikpark. Fr., 4. – So., 6. Dezember · Fr., 11. – So., 13. Dezember. Klinikpark Paracelsus, Lipper Weg 11, Marl-Hüls. Zwei Wochenenden mit Lichtern, Musik und Ständen. Freitag 16–21 Uhr, Samstag und Sonntag 14–21 Uhr. Bus 220, 223 oder 227."
+ },
+ "de-nikolaus-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Nikolaus und 2. Advent. So., 6. Dezember. Am Abend vorher stellen Kinder einen geputzten Schuh vor die Tür. Am Morgen sind Süßigkeiten, Nüsse oder Mandarinen darin."
+ },
+ "de-menschenrechte-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Tag der Menschenrechte. Do., 10. Dezember. Erinnerung an die Allgemeine Erklärung der Menschenrechte von 1948. Alle Menschen haben die gleichen Rechte und die gleiche Würde."
+ },
+ "de-advent3-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "3. Advent. So., 13. Dezember. Drei Kerzen brennen am Adventskranz. Noch zwölf Tage bis Weihnachten."
+ },
+ "de-migranten-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Internationaler Tag der Migranten. Fr., 18. Dezember. Tag der Vereinten Nationen für die Rechte aller Menschen, die ihr Land verlassen haben – auch für dich."
+ },
+ "de-weihnachtsmarkt-marler-stern-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Weihnachtsmarkt am Marler Stern. Fr., 18. – So., 20. Dezember. Marler Stern, Bergstraße 228, Marl-Mitte. Weihnachtsmarkt am Einkaufszentrum Marler Stern in Marl-Mitte. Gut mit Bus oder S-Bahn bis Marl Mitte erreichbar."
+ },
+ "de-advent4-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "4. Advent. So., 20. Dezember. Alle vier Kerzen am Adventskranz brennen. Weihnachten ist ganz nah."
+ },
+ "de-weihnachtsferien-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Weihnachtsferien in NRW. Mi., 23. Dezember 2026 – Mi., 6. Januar 2027. Die Schulen sind geschlossen. Der erste Schultag ist Donnerstag, 7. Januar 2027."
+ },
+ "de-heiligabend-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Heiligabend. Do., 24. Dezember. Der Abend vor Weihnachten, das wichtigste Familienfest. Geschäfte schließen meist schon am Mittag, viele Büros sind zu."
+ },
+ "de-weihnachten-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Weihnachten (1. und 2. Feiertag). Fr., 25. – Sa., 26. Dezember. Gesetzliche Feiertage. Geschäfte, Ämter und viele Arztpraxen sind geschlossen. Im Notfall: 112, ärztlicher Bereitschaftsdienst 116 117."
+ },
+ "de-silvester-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Silvester. Do., 31. Dezember. Der letzte Tag des Jahres. Feuerwerk wird nur vom 29. bis 31.12. verkauft und darf nur an Silvester und Neujahr gezündet werden. Nur geprüftes Feuerwerk (CE-Zeichen) kaufen und Abstand halten. Notruf 112."
+ },
+ "de-neujahr-2027": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Neujahr. Fr., 1. Januar. Gesetzlicher Feiertag. Geschäfte und Ämter sind geschlossen. Frohes neues Jahr!"
+ },
+ "de-dreikoenige-2027": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Heilige Drei Könige. Mi., 6. Januar. Christliches Fest. In NRW kein Feiertag, Geschäfte sind offen. Kinder gehen als Sternsinger von Tür zu Tür und sammeln Spenden für Kinder in Not."
+ },
+ "de-orthodox-weihnachten-2027": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Orthodoxes Weihnachten. Do., 7. Januar. Viele orthodoxe Christen, zum Beispiel aus Russland, Serbien, Georgien, Eritrea oder Äthiopien, feiern heute Weihnachten."
+ },
+ "ar-intro": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "المواعيد القادمة. هنا تجد دائماً المواعيد القادمة في مارل وما حولها. المواعيد الماضية تختفي تلقائياً."
+ },
+ "ar-weihnachtsmarkt-re-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "سوق عيد الميلاد في ريكلينغهاوزن. الخميس، 19 نوفمبر – الأربعاء، 23 ديسمبر. Altstadt Recklinghausen (Altstadtmarkt, St. Peter, Palais Vest). سوق كبير لعيد الميلاد في ثلاث ساحات في البلدة القديمة. من الأحد إلى الخميس 12–21، الجمعة والسبت 12–22."
+ },
+ "ar-totensonntag-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "أحد الموتى. الأحد، 22 نوفمبر. يوم مسيحي لذكرى الموتى. يوم هادئ: لا احتفالات صاخبة، والكثيرون يزورون المقابر."
+ },
+ "ar-weihnachtsmarkt-alt-marl-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "سوق عيد الميلاد في ألت-مارل. السبت، 28 – الأحد، 29 نوفمبر. Rund um St. Georg, Alt-Marl. السبت من الساعة 15، الأحد 12–18. يوم السبت الساعة 17 يأتي القديس نيكولاوس مع موكب فوانيس للأطفال."
+ },
+ "ar-advent1-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "الأحد الأول من زمن المجيء. الأحد، 29 نوفمبر. يبدأ زمن المجيء: الأسابيع الأربعة قبل عيد الميلاد. كل أحد تُشعل شمعة إضافية على إكليل المجيء."
+ },
+ "ar-welt-aids-tag-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "اليوم العالمي للإيدز. الثلاثاء، 1 ديسمبر. يوم التضامن مع المصابين بفيروس نقص المناعة. الاستشارة وفحص HIV في دائرة الصحة غالباً مجانية وبدون ذكر الاسم."
+ },
+ "ar-marler-weihnacht-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "عيد الميلاد في مارل – حديقة كلينيك بارك. الجمعة، 4 – الأحد، 6 ديسمبر · الجمعة، 11 – الأحد، 13 ديسمبر. Klinikpark Paracelsus, Lipper Weg 11, Marl-Hüls. عطلتا نهاية أسبوع مع أضواء وموسيقى وأكشاك. الجمعة 16–21، السبت والأحد 14–21. الحافلة 220 أو 223 أو 227."
+ },
+ "ar-nikolaus-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "عيد القديس نيكولاوس والأحد الثاني من المجيء. الأحد، 6 ديسمبر. في المساء السابق يضع الأطفال حذاءً نظيفاً أمام الباب. في الصباح يجدون فيه حلوى أو مكسرات أو يوسفي."
+ },
+ "ar-menschenrechte-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "يوم حقوق الإنسان. الخميس، 10 ديسمبر. ذكرى الإعلان العالمي لحقوق الإنسان عام 1948. لجميع الناس الحقوق نفسها والكرامة نفسها."
+ },
+ "ar-advent3-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "الأحد الثالث من المجيء. الأحد، 13 ديسمبر. ثلاث شموع مضاءة على إكليل المجيء. بقي اثنا عشر يوماً حتى عيد الميلاد."
+ },
+ "ar-migranten-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "اليوم الدولي للمهاجرين. الجمعة، 18 ديسمبر. يوم الأمم المتحدة لحقوق جميع الناس الذين غادروا بلدهم – وأنت منهم أيضاً."
+ },
+ "ar-weihnachtsmarkt-marler-stern-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "سوق عيد الميلاد في مارلر شتيرن. الجمعة، 18 – الأحد، 20 ديسمبر. Marler Stern, Bergstraße 228, Marl-Mitte. سوق عيد الميلاد عند مركز التسوق مارلر شتيرن في وسط مارل. يمكن الوصول إليه بسهولة بالحافلة أو القطار حتى محطة Marl Mitte."
+ },
+ "ar-advent4-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "الأحد الرابع من المجيء. الأحد، 20 ديسمبر. الشموع الأربع كلها مضاءة على إكليل المجيء. عيد الميلاد قريب جداً."
+ },
+ "ar-weihnachtsferien-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "عطلة عيد الميلاد المدرسية في ولاية شمال الراين-وستفاليا. الأربعاء، 23 ديسمبر 2026 – الأربعاء، 6 يناير 2027. المدارس مغلقة. أول يوم دراسي هو الخميس 7 كانون الثاني/يناير 2027."
+ },
+ "ar-heiligabend-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "ليلة عيد الميلاد. الخميس، 24 ديسمبر. المساء الذي يسبق عيد الميلاد، أهم عيد عائلي. المتاجر تغلق غالباً عند الظهر، والكثير من المكاتب مغلقة."
+ },
+ "ar-weihnachten-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "عيد الميلاد (اليوم الأول والثاني). الجمعة، 25 – السبت، 26 ديسمبر. عطلة رسمية. المتاجر والدوائر الحكومية وكثير من العيادات مغلقة. في الطوارئ: 112، خدمة الأطباء المناوبين 116117."
+ },
+ "ar-silvester-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "ليلة رأس السنة. الخميس، 31 ديسمبر. آخر يوم في السنة. تُباع الألعاب النارية فقط من 29 إلى 31 كانون الأول، ويُسمح بإشعالها فقط ليلة رأس السنة ويوم رأس السنة. اشترِ فقط ألعاباً نارية مرخصة (علامة CE) وحافظ على المسافة. الطوارئ 112."
+ },
+ "ar-neujahr-2027": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "رأس السنة الميلادية. الجمعة، 1 يناير. عطلة رسمية. المتاجر والدوائر مغلقة. سنة جديدة سعيدة!"
+ },
+ "ar-dreikoenige-2027": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "عيد الملوك الثلاثة (الغطاس). الأربعاء، 6 يناير. عيد مسيحي. ليس عطلة في ولاية شمال الراين-وستفاليا والمتاجر مفتوحة. أطفال «مغنّو النجمة» يطرقون الأبواب ويجمعون التبرعات للأطفال المحتاجين."
+ },
+ "ar-orthodox-weihnachten-2027": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "عيد الميلاد الأرثوذكسي. الخميس، 7 يناير. يحتفل كثير من المسيحيين الأرثوذكس اليوم بعيد الميلاد، مثلاً من روسيا وصربيا وجورجيا وإريتريا وإثيوبيا."
+ },
+ "en-intro": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Upcoming dates. Here you always find the next dates in Marl and nearby. Past dates disappear automatically."
+ },
+ "en-weihnachtsmarkt-re-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Christmas market Recklinghausen. Thu 19 November – Wed 23 December. Altstadt Recklinghausen (Altstadtmarkt, St. Peter, Palais Vest). Big Christmas market on three squares in the old town. Sunday to Thursday 12–9 pm, Friday and Saturday 12–10 pm."
+ },
+ "en-totensonntag-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Sunday of the Dead (Totensonntag). Sun 22 November. Christian day to remember the dead. A quiet day: no loud parties, many people visit cemeteries."
+ },
+ "en-weihnachtsmarkt-alt-marl-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Christmas market Alt-Marl. Sat 28 November – Sun 29 November. Rund um St. Georg, Alt-Marl. Saturday from 3 pm, Sunday 12–6 pm. On Saturday at 5 pm St Nicholas comes, with a lantern walk for children."
+ },
+ "en-advent1-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "1st Sunday of Advent. Sun 29 November. Advent begins: the four weeks before Christmas. Every Sunday one more candle is lit on the Advent wreath."
+ },
+ "en-welt-aids-tag-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "World AIDS Day. Tue 1 December. Day of solidarity with people living with HIV. Advice and HIV tests at the public health office (Gesundheitsamt) are usually free and anonymous."
+ },
+ "en-marler-weihnacht-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Marl Christmas in the Klinikpark. Fri 4 December – Sun 6 December · Fri 11 December – Sun 13 December. Klinikpark Paracelsus, Lipper Weg 11, Marl-Hüls. Two weekends with lights, music and stalls. Friday 4–9 pm, Saturday and Sunday 2–9 pm. Bus 220, 223 or 227."
+ },
+ "en-nikolaus-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "St Nicholas Day and 2nd Advent. Sun 6 December. The evening before, children put a cleaned shoe outside the door. In the morning there are sweets, nuts or tangerines in it."
+ },
+ "en-menschenrechte-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Human Rights Day. Thu 10 December. Remembering the Universal Declaration of Human Rights from 1948. All people have the same rights and the same dignity."
+ },
+ "en-advent3-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "3rd Sunday of Advent. Sun 13 December. Three candles burn on the Advent wreath. Twelve more days until Christmas."
+ },
+ "en-migranten-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "International Migrants Day. Fri 18 December. United Nations day for the rights of all people who have left their country – including you."
+ },
+ "en-weihnachtsmarkt-marler-stern-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Christmas market at Marler Stern. Fri 18 December – Sun 20 December. Marler Stern, Bergstraße 228, Marl-Mitte. Christmas market at the Marler Stern shopping centre in Marl-Mitte. Easy to reach by bus or train to Marl Mitte."
+ },
+ "en-advent4-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "4th Sunday of Advent. Sun 20 December. All four candles on the Advent wreath are burning. Christmas is very close."
+ },
+ "en-weihnachtsferien-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Christmas school holidays in NRW. Wed, 23 December 2026 – Wed, 6 January 2027. Schools are closed. The first school day is Thursday, 7 January 2027."
+ },
+ "en-heiligabend-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Christmas Eve. Thu 24 December. The evening before Christmas, the most important family celebration. Shops usually close at midday, many offices are closed."
+ },
+ "en-weihnachten-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Christmas (1st and 2nd day). Fri 25 December – Sat 26 December. Public holidays. Shops, offices and many doctors' practices are closed. Emergency: 112, on-call doctor 116 117."
+ },
+ "en-silvester-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "New Year's Eve (Silvester). Thu 31 December. The last day of the year. Fireworks are only sold from 29 to 31 December and may only be set off on 31 December and 1 January. Only buy tested fireworks (CE mark) and keep your distance. Emergency 112."
+ },
+ "en-neujahr-2027": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "New Year's Day. Fri 1 January. Public holiday. Shops and offices are closed. Happy New Year!"
+ },
+ "en-dreikoenige-2027": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Epiphany (Three Kings). Wed 6 January. Christian feast. Not a holiday in NRW, shops are open. Children as star singers go from door to door collecting donations for children in need."
+ },
+ "en-orthodox-weihnachten-2027": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Orthodox Christmas. Thu 7 January. Many Orthodox Christians, for example from Russia, Serbia, Georgia, Eritrea or Ethiopia, celebrate Christmas today."
+ },
+ "fr-intro": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Prochaines dates. Vous trouvez ici toujours les prochaines dates à Marl et dans les environs. Les dates passées disparaissent automatiquement."
+ },
+ "fr-weihnachtsmarkt-re-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Marché de Noël de Recklinghausen. jeu. 19 novembre – mer. 23 décembre. Altstadt Recklinghausen (Altstadtmarkt, St. Peter, Palais Vest). Grand marché de Noël sur trois places de la vieille ville. Du dimanche au jeudi 12h–21h, vendredi et samedi 12h–22h."
+ },
+ "fr-totensonntag-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Dimanche des morts (Totensonntag). dim. 22 novembre. Jour chrétien de souvenir des défunts. Un jour calme : pas de fêtes bruyantes, beaucoup de gens vont au cimetière."
+ },
+ "fr-weihnachtsmarkt-alt-marl-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Marché de Noël d'Alt-Marl. sam. 28 – dim. 29 novembre. Rund um St. Georg, Alt-Marl. Samedi dès 15h, dimanche 12h–18h. Samedi à 17h, saint Nicolas arrive, avec un défilé de lanternes pour les enfants."
+ },
+ "fr-advent1-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "1er dimanche de l'Avent. dim. 29 novembre. L'Avent commence : les quatre semaines avant Noël. Chaque dimanche, on allume une bougie de plus sur la couronne de l'Avent."
+ },
+ "fr-welt-aids-tag-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Journée mondiale de lutte contre le sida. mar. 1 décembre. Journée de solidarité avec les personnes vivant avec le VIH. Conseil et test VIH au service de santé (Gesundheitsamt) sont en général gratuits et anonymes."
+ },
+ "fr-marler-weihnacht-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Noël de Marl au Klinikpark. ven. 4 – dim. 6 décembre · ven. 11 – dim. 13 décembre. Klinikpark Paracelsus, Lipper Weg 11, Marl-Hüls. Deux week-ends avec lumières, musique et stands. Vendredi 16h–21h, samedi et dimanche 14h–21h. Bus 220, 223 ou 227."
+ },
+ "fr-nikolaus-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Saint-Nicolas et 2e dimanche de l'Avent. dim. 6 décembre. La veille au soir, les enfants posent une chaussure propre devant la porte. Le matin, ils y trouvent des bonbons, des noix ou des mandarines."
+ },
+ "fr-menschenrechte-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Journée des droits de l'homme. jeu. 10 décembre. Souvenir de la Déclaration universelle des droits de l'homme de 1948. Tous les êtres humains ont les mêmes droits et la même dignité."
+ },
+ "fr-advent3-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "3e dimanche de l'Avent. dim. 13 décembre. Trois bougies brûlent sur la couronne de l'Avent. Encore douze jours avant Noël."
+ },
+ "fr-migranten-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Journée internationale des migrants. ven. 18 décembre. Journée des Nations unies pour les droits de toutes les personnes qui ont quitté leur pays – vous aussi."
+ },
+ "fr-weihnachtsmarkt-marler-stern-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Marché de Noël au Marler Stern. ven. 18 – dim. 20 décembre. Marler Stern, Bergstraße 228, Marl-Mitte. Marché de Noël au centre commercial Marler Stern, à Marl-Mitte. Facile d'accès en bus ou en train jusqu'à Marl Mitte."
+ },
+ "fr-advent4-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "4e dimanche de l'Avent. dim. 20 décembre. Les quatre bougies de la couronne de l'Avent brûlent. Noël est tout proche."
+ },
+ "fr-weihnachtsferien-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Vacances de Noël en NRW. mer. 23 décembre 2026 – mer. 6 janvier 2027. Les écoles sont fermées. La rentrée est le jeudi 7 janvier 2027."
+ },
+ "fr-heiligabend-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Réveillon de Noël. jeu. 24 décembre. La soirée avant Noël, la fête de famille la plus importante. Les magasins ferment souvent à midi, beaucoup de bureaux sont fermés."
+ },
+ "fr-weihnachten-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Noël (1er et 2e jour). ven. 25 – sam. 26 décembre. Jours fériés. Magasins, administrations et beaucoup de cabinets médicaux sont fermés. Urgence : 112, médecin de garde 116 117."
+ },
+ "fr-silvester-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Saint-Sylvestre. jeu. 31 décembre. Le dernier jour de l'année. Les feux d'artifice ne sont vendus que du 29 au 31 décembre et ne peuvent être tirés que le 31 décembre et le 1er janvier. N'achetez que des feux contrôlés (marquage CE) et gardez vos distances. Urgence 112."
+ },
+ "fr-neujahr-2027": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Jour de l'An. ven. 1 janvier. Jour férié. Magasins et administrations sont fermés. Bonne année !"
+ },
+ "fr-dreikoenige-2027": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Épiphanie (Rois mages). mer. 6 janvier. Fête chrétienne. Pas férié en NRW, les magasins sont ouverts. Des enfants « chanteurs à l'étoile » passent de porte en porte et collectent des dons pour les enfants dans le besoin."
+ },
+ "fr-orthodox-weihnachten-2027": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Noël orthodoxe. jeu. 7 janvier. Beaucoup de chrétiens orthodoxes, par exemple de Russie, de Serbie, de Géorgie, d'Érythrée ou d'Éthiopie, fêtent Noël aujourd'hui."
+ },
+ "ku-intro": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Dîrokên nêzîk. Li vir her tim dîrokên bên ên li Marl û derdorê hene. Dîrokên derbasbûyî bixweber winda dibin."
+ },
+ "ku-weihnachtsmarkt-re-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Bazara Noelê ya Recklinghausen. Pêncşem 19 Mijdar – Çarşem 23 Kanûn. Altstadt Recklinghausen (Altstadtmarkt, St. Peter, Palais Vest). Bazareke mezin a Noelê li sê meydanên bajarê kevn. Ji Yekşemê heta Pêncşemê 12–21, În û Şemî 12–22."
+ },
+ "ku-totensonntag-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Yekşema Miriyan (Totensonntag). Yekşem 22 Mijdar. Roja bîranîna miriyan a xiristiyanan. Rojeke bêdeng e: şahiyên bi deng tune ne, gelek kes diçin goristanan."
+ },
+ "ku-weihnachtsmarkt-alt-marl-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Bazara Noelê ya Alt-Marl. Şemî 28 Mijdar – Yekşem 29 Mijdar. Rund um St. Georg, Alt-Marl. Şemî ji saet 15an, Yekşem 12–18. Şemiyê saet 17an Nîkolaus tê, bi meşa fenerên ji bo zarokan."
+ },
+ "ku-advent1-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Adventa 1em. Yekşem 29 Mijdar. Dema Adventê dest pê dike: çar hefteyên berî Noelê. Her Yekşem li ser taca Adventê momek din tê vêxistin."
+ },
+ "ku-welt-aids-tag-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Roja Cîhanî ya AIDSê. Sêşem 1 Kanûn. Roja piştgiriyê bi kesên bi HIV re. Şêwr û testa HIVê li Gesundheitsamtê bi gelemperî belaş û bênav in."
+ },
+ "ku-marler-weihnacht-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Noela Marlê li Klinikparkê. În 4 Kanûn – Yekşem 6 Kanûn · În 11 Kanûn – Yekşem 13 Kanûn. Klinikpark Paracelsus, Lipper Weg 11, Marl-Hüls. Du dawiya hefteyan bi ronahî, muzîk û standan. În 16–21, Şemî û Yekşem 14–21. Otobus 220, 223 an 227."
+ },
+ "ku-nikolaus-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Nîkolaus û Adventa 2yem. Yekşem 6 Kanûn. Êvara berê zarok solekî paqijkirî datînin ber derî. Sibehê tê de şîranî, gwîz an mandalîna hene."
+ },
+ "ku-menschenrechte-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Roja Mafên Mirovan. Pêncşem 10 Kanûn. Bîranîna Daxuyaniya Gerdûnî ya Mafên Mirovan a 1948an. Hemû mirov xwedî heman maf û heman rûmetê ne."
+ },
+ "ku-advent3-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Adventa 3yem. Yekşem 13 Kanûn. Sê mom li ser taca Adventê dişewitin. Heta Noelê diwanzdeh roj mane."
+ },
+ "ku-migranten-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Roja Navneteweyî ya Koçberan. În 18 Kanûn. Roja Neteweyên Yekbûyî ji bo mafên hemû kesên ku welatê xwe terk kirine – tu jî di nav de."
+ },
+ "ku-weihnachtsmarkt-marler-stern-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Bazara Noelê li Marler Stern. În 18 Kanûn – Yekşem 20 Kanûn. Marler Stern, Bergstraße 228, Marl-Mitte. Bazara Noelê li navenda kirînê Marler Stern li Marl-Mitte. Bi otobus an trênê heta Marl Mitte hêsan tê gihîştin."
+ },
+ "ku-advent4-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Adventa 4em. Yekşem 20 Kanûn. Her çar mom li ser taca Adventê dişewitin. Noel pir nêzîk e."
+ },
+ "ku-weihnachtsferien-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Betlaneya Noelê ya dibistanan li NRW. Çarşem 23 Kanûn – Çarşem 6 Çile. Dibistan girtî ne. Roja yekem a dibistanê Pêncşem, 7ê Çileya Paşîn 2027 e."
+ },
+ "ku-heiligabend-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Şeva Noelê. Pêncşem 24 Kanûn. Êvara berî Noelê, girîngtirîn cejna malbatê. Dikan bi gelemperî nîvro digirin, gelek ofîs girtî ne."
+ },
+ "ku-weihnachten-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Noel (roja 1em û 2yem). În 25 Kanûn – Şemî 26 Kanûn. Betlaneyên fermî. Dikan, dezgeh û gelek muayenexane girtî ne. Di rewşa awarte de: 112, doktorê nobetdar 116 117."
+ },
+ "ku-silvester-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Şeva Sersalê (Silvester). Pêncşem 31 Kanûn. Roja dawî ya salê. Fîşek tenê ji 29 heta 31ê Kanûnê tên firotin û tenê di 31ê Kanûnê û 1ê Çileyê de dikarin bên teqandin. Tenê fîşekên kontrolkirî (nîşana CE) bikire û dûr bisekine. Acîl 112."
+ },
+ "ku-neujahr-2027": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Sersal. În 1 Çile. Betlaneya fermî. Dikan û dezgeh girtî ne. Sersala te pîroz be!"
+ },
+ "ku-dreikoenige-2027": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Sê Padîşahên Pîroz. Çarşem 6 Çile. Cejneke xiristiyanan. Li NRW ne betlane ye, dikan vekirî ne. Zarok wek stranbêjên stêrkê derî bi derî digerin û ji bo zarokên hewcedar bexşîşan berhev dikin."
+ },
+ "ku-orthodox-weihnachten-2027": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Noela Ortodoks. Pêncşem 7 Çile. Gelek xiristiyanên ortodoks, wek ji Rûsya, Sirbistan, Gurcistan, Erître an Etiyopyayê, îro Noelê pîroz dikin."
+ },
+ "tr-intro": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Yaklaşan etkinlikler. Burada her zaman Marl ve çevresindeki yaklaşan etkinlikleri bulursunuz. Geçmiş etkinlikler kendiliğinden kaybolur."
+ },
+ "tr-weihnachtsmarkt-re-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Recklinghausen Noel Pazarı. 19 Kasım Per – 23 Aralık Çar. Altstadt Recklinghausen (Altstadtmarkt, St. Peter, Palais Vest). Eski şehirde üç meydanda büyük Noel pazarı. Pazar–Perşembe 12–21, Cuma ve Cumartesi 12–22."
+ },
+ "tr-totensonntag-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Ölüleri Anma Pazarı (Totensonntag). 22 Kasım Paz. Hristiyanların ölüleri andığı gün. Sessiz bir gün: gürültülü kutlama yapılmaz, birçok kişi mezarlığı ziyaret eder."
+ },
+ "tr-weihnachtsmarkt-alt-marl-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Alt-Marl Noel Pazarı. 28 Kasım Cmt – 29 Kasım Paz. Rund um St. Georg, Alt-Marl. Cumartesi 15'ten itibaren, Pazar 12–18. Cumartesi saat 17'de Aziz Nikolaus geliyor, çocuklar için fener yürüyüşü var."
+ },
+ "tr-advent1-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "1. Advent. 29 Kasım Paz. Advent dönemi başlıyor: Noel'den önceki dört hafta. Her pazar Advent çelengindeki bir mum daha yakılır."
+ },
+ "tr-welt-aids-tag-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Dünya AIDS Günü. 1 Aralık Sal. HIV ile yaşayan insanlarla dayanışma günü. Sağlık dairesinde (Gesundheitsamt) danışmanlık ve HIV testi genellikle ücretsiz ve isimsizdir."
+ },
+ "tr-marler-weihnacht-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Klinikpark'ta Marl Noeli. 4 Aralık Cum – 6 Aralık Paz · 11 Aralık Cum – 13 Aralık Paz. Klinikpark Paracelsus, Lipper Weg 11, Marl-Hüls. Işıklar, müzik ve stantlarla iki hafta sonu. Cuma 16–21, Cumartesi ve Pazar 14–21. Otobüs 220, 223 veya 227."
+ },
+ "tr-nikolaus-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Nikolaus Günü ve 2. Advent. 6 Aralık Paz. Bir önceki akşam çocuklar temizlenmiş bir ayakkabıyı kapının önüne koyar. Sabah içinde şeker, fındık veya mandalina olur."
+ },
+ "tr-menschenrechte-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "İnsan Hakları Günü. 10 Aralık Per. 1948 İnsan Hakları Evrensel Beyannamesi'nin anıldığı gün. Bütün insanlar eşit haklara ve eşit onura sahiptir."
+ },
+ "tr-advent3-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "3. Advent. 13 Aralık Paz. Advent çelenginde üç mum yanıyor. Noel'e on iki gün kaldı."
+ },
+ "tr-migranten-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Uluslararası Göçmenler Günü. 18 Aralık Cum. Ülkesini terk etmiş tüm insanların hakları için Birleşmiş Milletler günü – sen de dahil."
+ },
+ "tr-weihnachtsmarkt-marler-stern-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Marler Stern Noel Pazarı. 18 Aralık Cum – 20 Aralık Paz. Marler Stern, Bergstraße 228, Marl-Mitte. Marl-Mitte'deki Marler Stern alışveriş merkezinde Noel pazarı. Otobüs veya trenle Marl Mitte'ye kolayca ulaşılır."
+ },
+ "tr-advent4-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "4. Advent. 20 Aralık Paz. Advent çelengindeki dört mumun hepsi yanıyor. Noel çok yakın."
+ },
+ "tr-weihnachtsferien-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "NRW'de Noel okul tatili. 23 Aralık 2026 Çar – 6 Ocak 2027 Çar. Okullar kapalı. Okulun ilk günü 7 Ocak 2027 Perşembe."
+ },
+ "tr-heiligabend-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Noel Arifesi. 24 Aralık Per. Noel'den önceki akşam, en önemli aile bayramı. Dükkânlar genellikle öğlen kapanır, birçok ofis kapalıdır."
+ },
+ "tr-weihnachten-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Noel (1. ve 2. gün). 25 Aralık Cum – 26 Aralık Cmt. Resmi tatil. Dükkânlar, resmi daireler ve birçok doktor muayenehanesi kapalı. Acil durumda: 112, nöbetçi doktor 116 117."
+ },
+ "tr-silvester-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Yılbaşı Gecesi (Silvester). 31 Aralık Per. Yılın son günü. Havai fişek sadece 29–31 Aralık arasında satılır ve sadece 31 Aralık ile 1 Ocak'ta atılabilir. Sadece kontrollü (CE işaretli) havai fişek alın, mesafe bırakın. Acil 112."
+ },
+ "tr-neujahr-2027": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Yılbaşı. 1 Ocak Cum. Resmi tatil. Dükkânlar ve resmi daireler kapalı. Mutlu yıllar!"
+ },
+ "tr-dreikoenige-2027": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Üç Kral Yortusu. 6 Ocak Çar. Hristiyan bayramı. NRW'de tatil değil, dükkânlar açık. Çocuklar yıldız şarkıcıları olarak kapı kapı dolaşıp ihtiyaç sahibi çocuklar için bağış toplar."
+ },
+ "tr-orthodox-weihnachten-2027": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Ortodoks Noeli. 7 Ocak Per. Rusya, Sırbistan, Gürcistan, Eritre veya Etiyopya gibi ülkelerden birçok Ortodoks Hristiyan bugün Noel'i kutluyor."
+ },
+ "sq-intro": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Datat e ardhshme. Këtu gjeni gjithmonë datat e ardhshme në Marl dhe rrethinë. Datat e kaluara zhduken automatikisht."
+ },
+ "sq-weihnachtsmarkt-re-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Tregu i Krishtlindjeve në Recklinghausen. enj, 19 nëntor – mër, 23 dhjetor. Altstadt Recklinghausen (Altstadtmarkt, St. Peter, Palais Vest). Treg i madh i Krishtlindjeve në tre sheshe në qytetin e vjetër. E diel deri të enjte 12–21, e premte dhe e shtunë 12–22."
+ },
+ "sq-totensonntag-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "E diela e të vdekurve (Totensonntag). die, 22 nëntor. Ditë e krishterë e përkujtimit të të vdekurve. Ditë e qetë: pa festa të zhurmshme, shumë njerëz vizitojnë varrezat."
+ },
+ "sq-weihnachtsmarkt-alt-marl-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Tregu i Krishtlindjeve Alt-Marl. sht, 28 nëntor – die, 29 nëntor. Rund um St. Georg, Alt-Marl. E shtunë nga ora 15, e diel 12–18. Të shtunën në orën 17 vjen Shën Nikolla, me paradë fenerësh për fëmijët."
+ },
+ "sq-advent1-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "E diela e parë e Adventit. die, 29 nëntor. Fillon Adventi: katër javët para Krishtlindjeve. Çdo të diel ndizet një qiri më shumë në kurorën e Adventit."
+ },
+ "sq-welt-aids-tag-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Dita Botërore e AIDS-it. mar, 1 dhjetor. Ditë solidariteti me njerëzit që jetojnë me HIV. Këshillimi dhe testi i HIV-it në zyrën e shëndetësisë (Gesundheitsamt) zakonisht janë falas dhe anonime."
+ },
+ "sq-marler-weihnacht-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Krishtlindjet e Marlit në Klinikpark. pre, 4 dhjetor – die, 6 dhjetor · pre, 11 dhjetor – die, 13 dhjetor. Klinikpark Paracelsus, Lipper Weg 11, Marl-Hüls. Dy fundjava me drita, muzikë dhe stenda. E premte 16–21, e shtunë dhe e diel 14–21. Autobusi 220, 223 ose 227."
+ },
+ "sq-nikolaus-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Shën Nikolla dhe e diela e dytë e Adventit. die, 6 dhjetor. Mbrëmjen e mëparshme fëmijët vendosin një këpucë të pastër para derës. Në mëngjes brenda ka ëmbëlsira, arra ose mandarina."
+ },
+ "sq-menschenrechte-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Dita e të Drejtave të Njeriut. enj, 10 dhjetor. Përkujtim i Deklaratës Universale të të Drejtave të Njeriut të vitit 1948. Të gjithë njerëzit kanë të njëjtat të drejta dhe të njëjtin dinjitet."
+ },
+ "sq-advent3-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "E diela e tretë e Adventit. die, 13 dhjetor. Tre qirinj digjen në kurorën e Adventit. Edhe dymbëdhjetë ditë deri në Krishtlindje."
+ },
+ "sq-migranten-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Dita Ndërkombëtare e Emigrantëve. pre, 18 dhjetor. Dita e Kombeve të Bashkuara për të drejtat e të gjithë njerëzve që kanë lënë vendin e tyre – edhe për ty."
+ },
+ "sq-weihnachtsmarkt-marler-stern-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Tregu i Krishtlindjeve te Marler Stern. pre, 18 dhjetor – die, 20 dhjetor. Marler Stern, Bergstraße 228, Marl-Mitte. Treg Krishtlindjesh te qendra tregtare Marler Stern në Marl-Mitte. Arrihet lehtë me autobus ose tren deri në Marl Mitte."
+ },
+ "sq-advent4-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "E diela e katërt e Adventit. die, 20 dhjetor. Të katër qirinjtë e kurorës së Adventit digjen. Krishtlindjet janë shumë afër."
+ },
+ "sq-weihnachtsferien-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Pushimet e Krishtlindjeve në NRW. mër, 23 dhjetor 2026 – mër, 6 janar 2027. Shkollat janë të mbyllura. Dita e parë e shkollës është e enjte, 7 janar 2027."
+ },
+ "sq-heiligabend-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Nata e Krishtlindjes. enj, 24 dhjetor. Mbrëmja para Krishtlindjeve, festa më e rëndësishme familjare. Dyqanet zakonisht mbyllen në mesditë, shumë zyra janë të mbyllura."
+ },
+ "sq-weihnachten-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Krishtlindjet (dita e 1 dhe e 2). pre, 25 dhjetor – sht, 26 dhjetor. Festa zyrtare. Dyqanet, zyrat dhe shumë ordinanca mjekësore janë të mbyllura. Urgjenca: 112, mjeku kujdestar 116 117."
+ },
+ "sq-silvester-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Nata e Vitit të Ri (Silvester). enj, 31 dhjetor. Dita e fundit e vitit. Fishekzjarret shiten vetëm nga 29 deri më 31 dhjetor dhe mund të hidhen vetëm më 31 dhjetor dhe 1 janar. Blini vetëm fishekzjarre të kontrolluara (shenja CE) dhe mbani distancë. Urgjenca 112."
+ },
+ "sq-neujahr-2027": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Viti i Ri. pre, 1 janar. Festë zyrtare. Dyqanet dhe zyrat janë të mbyllura. Gëzuar Vitin e Ri!"
+ },
+ "sq-dreikoenige-2027": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Tre Mbretërit. mër, 6 janar. Festë e krishterë. Në NRW nuk është festë zyrtare, dyqanet janë të hapura. Fëmijë si këngëtarë të yllit shkojnë derë më derë dhe mbledhin dhurata për fëmijët në nevojë."
+ },
+ "sq-orthodox-weihnachten-2027": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Krishtlindjet ortodokse. enj, 7 janar. Shumë të krishterë ortodoksë, për shembull nga Rusia, Serbia, Gjeorgjia, Eritrea ose Etiopia, festojnë sot Krishtlindjet."
+ },
+ "ru-intro": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Ближайшие события. Здесь всегда ближайшие события в Марле и окрестностях. Прошедшие даты исчезают автоматически."
+ },
+ "ru-weihnachtsmarkt-re-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Рождественская ярмарка в Реклингхаузене. чт, 19 ноября – ср, 23 декабря. Altstadt Recklinghausen (Altstadtmarkt, St. Peter, Palais Vest). Большая рождественская ярмарка на трёх площадях старого города. С воскресенья по четверг 12–21, в пятницу и субботу 12–22."
+ },
+ "ru-totensonntag-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Воскресенье мёртвых (Totensonntag). вс, 22 ноября. Христианский день памяти умерших. Тихий день: никаких шумных праздников, многие посещают кладбища."
+ },
+ "ru-weihnachtsmarkt-alt-marl-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Рождественская ярмарка в Альт-Марле. сб, 28 ноября – вс, 29 ноября. Rund um St. Georg, Alt-Marl. Суббота с 15:00, воскресенье 12–18. В субботу в 17:00 приходит Николаус, шествие с фонариками для детей."
+ },
+ "ru-advent1-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Первое воскресенье Адвента. вс, 29 ноября. Начинается Адвент — четыре недели до Рождества. Каждое воскресенье на адвентском венке зажигают ещё одну свечу."
+ },
+ "ru-welt-aids-tag-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Всемирный день борьбы со СПИДом. вт, 1 декабря. День солидарности с людьми, живущими с ВИЧ. Консультация и тест на ВИЧ в отделе здравоохранения (Gesundheitsamt) обычно бесплатны и анонимны."
+ },
+ "ru-marler-weihnacht-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Рождество в Марле в Клиникпарке. пт, 4 декабря – вс, 6 декабря · пт, 11 декабря – вс, 13 декабря. Klinikpark Paracelsus, Lipper Weg 11, Marl-Hüls. Два выходных с огнями, музыкой и киосками. Пятница 16–21, суббота и воскресенье 14–21. Автобус 220, 223 или 227."
+ },
+ "ru-nikolaus-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "День святого Николая и второй Адвент. вс, 6 декабря. Накануне вечером дети ставят за дверь чистый ботинок. Утром в нём сладости, орехи или мандарины."
+ },
+ "ru-menschenrechte-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "День прав человека. чт, 10 декабря. Память о Всеобщей декларации прав человека 1948 года. Все люди имеют равные права и равное достоинство."
+ },
+ "ru-advent3-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Третье воскресенье Адвента. вс, 13 декабря. На адвентском венке горят три свечи. До Рождества двенадцать дней."
+ },
+ "ru-migranten-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Международный день мигрантов. пт, 18 декабря. День ООН в защиту прав всех людей, покинувших свою страну, — в том числе и твоих."
+ },
+ "ru-weihnachtsmarkt-marler-stern-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Рождественская ярмарка у Marler Stern. пт, 18 декабря – вс, 20 декабря. Marler Stern, Bergstraße 228, Marl-Mitte. Рождественская ярмарка у торгового центра Marler Stern в Марль-Митте. Удобно доехать на автобусе или поезде до Marl Mitte."
+ },
+ "ru-advent4-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Четвёртое воскресенье Адвента. вс, 20 декабря. Горят все четыре свечи адвентского венка. Рождество совсем близко."
+ },
+ "ru-weihnachtsferien-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Рождественские каникулы в NRW. ср, 23 декабря – ср, 6 января. Школы закрыты. Первый учебный день — четверг, 7 января 2027 года."
+ },
+ "ru-heiligabend-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Сочельник. чт, 24 декабря. Вечер перед Рождеством, главный семейный праздник. Магазины обычно закрываются в полдень, многие учреждения не работают."
+ },
+ "ru-weihnachten-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Рождество (1-й и 2-й день). пт, 25 декабря – сб, 26 декабря. Официальные праздники. Магазины, учреждения и многие врачебные кабинеты закрыты. Экстренно: 112, дежурный врач 116 117."
+ },
+ "ru-silvester-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Новогодняя ночь (Сильвестр). чт, 31 декабря. Последний день года. Фейерверки продаются только с 29 по 31 декабря, запускать их можно только 31 декабря и 1 января. Покупайте только сертифицированные фейерверки (знак CE) и держите дистанцию. Экстренный номер 112."
+ },
+ "ru-neujahr-2027": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Новый год. пт, 1 января. Официальный праздник. Магазины и учреждения закрыты. С Новым годом!"
+ },
+ "ru-dreikoenige-2027": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Богоявление (День трёх королей). ср, 6 января. Христианский праздник. В NRW это не выходной, магазины работают. Дети — «звёздные певцы» — ходят по домам и собирают пожертвования для нуждающихся детей."
+ },
+ "ru-orthodox-weihnachten-2027": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Православное Рождество. чт, 7 января. Многие православные христиане, например из России, Сербии, Грузии, Эритреи или Эфиопии, сегодня празднуют Рождество."
+ },
+ "fa-intro": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "رویدادهای پیش رو. اینجا همیشه رویدادهای پیش رو در مارل و اطراف آن را می‌بینید. تاریخ‌های گذشته خودکار حذف می‌شوند."
+ },
+ "fa-weihnachtsmarkt-re-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "بازار کریسمس رکلینگهاوزن. پنجشنبه ۱۹ نوامبر تا چهارشنبه ۲۳ دسامبر. Altstadt Recklinghausen (Altstadtmarkt, St. Peter, Palais Vest). بازار بزرگ کریسمس در سه میدان شهر قدیمی. یکشنبه تا پنجشنبه ۱۲ تا ۲۱، جمعه و شنبه ۱۲ تا ۲۲."
+ },
+ "fa-totensonntag-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "یکشنبه مردگان (Totensonntag). یکشنبه ۲۲ نوامبر. روز مسیحی یادبود درگذشتگان. روزی آرام: جشن پرسروصدا برگزار نمی‌شود و بسیاری به گورستان می‌روند."
+ },
+ "fa-weihnachtsmarkt-alt-marl-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "بازار کریسمس آلت-مارل. شنبه ۲۸ نوامبر تا یکشنبه ۲۹ نوامبر. Rund um St. Georg, Alt-Marl. شنبه از ساعت ۱۵، یکشنبه ۱۲ تا ۱۸. شنبه ساعت ۱۷ نیکولاس می‌آید، با راهپیمایی فانوس برای کودکان."
+ },
+ "fa-advent1-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "یکشنبه اول ادونت. یکشنبه ۲۹ نوامبر. دوره ادونت آغاز می‌شود: چهار هفته پیش از کریسمس. هر یکشنبه یک شمع دیگر روی تاج ادونت روشن می‌شود."
+ },
+ "fa-welt-aids-tag-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "روز جهانی ایدز. سه‌شنبه ۱ دسامبر. روز همبستگی با افراد مبتلا به اچ‌آی‌وی. مشاوره و آزمایش اچ‌آی‌وی در اداره بهداشت (Gesundheitsamt) معمولاً رایگان و بدون نام است."
+ },
+ "fa-marler-weihnacht-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "کریسمس مارل در کلینیک‌پارک. جمعه ۴ دسامبر تا یکشنبه ۶ دسامبر · جمعه ۱۱ دسامبر تا یکشنبه ۱۳ دسامبر. Klinikpark Paracelsus, Lipper Weg 11, Marl-Hüls. دو آخر هفته با چراغ، موسیقی و غرفه. جمعه ۱۶ تا ۲۱، شنبه و یکشنبه ۱۴ تا ۲۱. اتوبوس ۲۲۰، ۲۲۳ یا ۲۲۷."
+ },
+ "fa-nikolaus-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "روز نیکولاس و یکشنبه دوم ادونت. یکشنبه ۶ دسامبر. شب قبل، کودکان یک کفش تمیز پشت در می‌گذارند. صبح داخل آن شیرینی، آجیل یا نارنگی است."
+ },
+ "fa-menschenrechte-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "روز حقوق بشر. پنجشنبه ۱۰ دسامبر. یادبود اعلامیه جهانی حقوق بشر در سال ۱۹۴۸. همه انسان‌ها حقوق و کرامت برابر دارند."
+ },
+ "fa-advent3-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "یکشنبه سوم ادونت. یکشنبه ۱۳ دسامبر. سه شمع روی تاج ادونت روشن است. دوازده روز تا کریسمس مانده است."
+ },
+ "fa-migranten-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "روز جهانی مهاجران. جمعه ۱۸ دسامبر. روز سازمان ملل برای حقوق همه کسانی که کشورشان را ترک کرده‌اند – از جمله شما."
+ },
+ "fa-weihnachtsmarkt-marler-stern-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "بازار کریسمس مارلر اشترن. جمعه ۱۸ دسامبر تا یکشنبه ۲۰ دسامبر. Marler Stern, Bergstraße 228, Marl-Mitte. بازار کریسمس کنار مرکز خرید مارلر اشترن در مرکز مارل. با اتوبوس یا قطار تا ایستگاه Marl Mitte به‌راحتی می‌رسید."
+ },
+ "fa-advent4-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "یکشنبه چهارم ادونت. یکشنبه ۲۰ دسامبر. هر چهار شمع تاج ادونت روشن است. کریسمس خیلی نزدیک است."
+ },
+ "fa-weihnachtsferien-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "تعطیلات مدارس کریسمس در NRW. چهارشنبه ۲۳ دسامبر تا چهارشنبه ۶ ژانویه. مدارس تعطیل هستند. اولین روز مدرسه پنجشنبه ۷ ژانویه ۲۰۲۷ است."
+ },
+ "fa-heiligabend-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "شب کریسمس. پنجشنبه ۲۴ دسامبر. شب پیش از کریسمس، مهم‌ترین جشن خانوادگی. مغازه‌ها معمولاً ظهر می‌بندند و بسیاری از ادارات تعطیل هستند."
+ },
+ "fa-weihnachten-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "کریسمس (روز اول و دوم). جمعه ۲۵ دسامبر تا شنبه ۲۶ دسامبر. تعطیل رسمی. مغازه‌ها، ادارات و بسیاری از مطب‌ها بسته‌اند. در مواقع اضطراری: ۱۱۲، پزشک کشیک ۱۱۶۱۱۷."
+ },
+ "fa-silvester-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "شب سال نو (زیلوستر). پنجشنبه ۳۱ دسامبر. آخرین روز سال. آتش‌بازی فقط از ۲۹ تا ۳۱ دسامبر فروخته می‌شود و فقط در ۳۱ دسامبر و ۱ ژانویه مجاز است. فقط آتش‌بازی دارای علامت CE بخرید و فاصله را رعایت کنید. اورژانس ۱۱۲."
+ },
+ "fa-neujahr-2027": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "سال نو میلادی. جمعه ۱ ژانویه. تعطیل رسمی. مغازه‌ها و ادارات بسته‌اند. سال نو مبارک!"
+ },
+ "fa-dreikoenige-2027": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "عید سه پادشاه (اپیفانی). چهارشنبه ۶ ژانویه. جشن مسیحی. در NRW تعطیل نیست و مغازه‌ها باز هستند. کودکانی به نام «خوانندگان ستاره» در خانه‌ها را می‌زنند و برای کودکان نیازمند کمک جمع می‌کنند."
+ },
+ "fa-orthodox-weihnachten-2027": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "کریسمس ارتدکس. پنجشنبه ۷ ژانویه. بسیاری از مسیحیان ارتدکس، مثلاً از روسیه، صربستان، گرجستان، اریتره یا اتیوپی، امروز کریسمس را جشن می‌گیرند."
+ },
+ "zh-intro": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "近期活动. 这里总是显示马尔及周边的近期活动。过去的日期会自动消失。"
+ },
+ "zh-weihnachtsmarkt-re-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "雷克林豪森圣诞市场. 11/19周四至12/23周三. Altstadt Recklinghausen (Altstadtmarkt, St. Peter, Palais Vest). 老城区三个广场上的大型圣诞市场。周日至周四12–21点，周五和周六12–22点。"
+ },
+ "zh-totensonntag-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "亡者主日（Totensonntag）. 11月22日周日. 基督教纪念逝者的日子。这是安静的一天：不举行喧闹的聚会，很多人去墓地。"
+ },
+ "zh-weihnachtsmarkt-alt-marl-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "老马尔圣诞市场. 11/28周六至11/29周日. Rund um St. Georg, Alt-Marl. 周六15点起，周日12–18点。周六17点圣尼古拉斯到来，并有儿童灯笼游行。"
+ },
+ "zh-advent1-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "将临期第一主日. 11月29日周日. 将临期开始：圣诞节前的四个星期。每个星期天在将临期花环上多点一支蜡烛。"
+ },
+ "zh-welt-aids-tag-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "世界艾滋病日. 12月1日周二. 声援艾滋病病毒感染者的日子。卫生局（Gesundheitsamt）的咨询和HIV检测通常免费且匿名。"
+ },
+ "zh-marler-weihnacht-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "诊所公园马尔圣诞节. 12/4周五至12/6周日 · 12/11周五至12/13周日. Klinikpark Paracelsus, Lipper Weg 11, Marl-Hüls. 两个周末，有灯光、音乐和摊位。周五16–21点，周六和周日14–21点。乘坐220、223或227路公交。"
+ },
+ "zh-nikolaus-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "圣尼古拉斯节和将临期第二主日. 12月6日周日. 前一天晚上，孩子们把擦干净的鞋放在门外。早上鞋里会有糖果、坚果或橘子。"
+ },
+ "zh-menschenrechte-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "人权日. 12月10日周四. 纪念1948年《世界人权宣言》。人人享有同等的权利和尊严。"
+ },
+ "zh-advent3-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "将临期第三主日. 12月13日周日. 将临期花环上点着三支蜡烛。距离圣诞节还有十二天。"
+ },
+ "zh-migranten-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "国际移徙者日. 12月18日周五. 联合国为所有离开祖国的人的权利设立的日子——也包括你。"
+ },
+ "zh-weihnachtsmarkt-marler-stern-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "马尔之星圣诞市场. 12/18周五至12/20周日. Marler Stern, Bergstraße 228, Marl-Mitte. 位于马尔市中心马尔之星购物中心的圣诞市场。乘公交或火车到Marl Mitte即可方便到达。"
+ },
+ "zh-advent4-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "将临期第四主日. 12月20日周日. 将临期花环上的四支蜡烛全部点亮。圣诞节就要到了。"
+ },
+ "zh-weihnachtsferien-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "北威州圣诞学校假期. 2026/12/23周三 – 2027/1/6周三. 学校放假。第一个上学日是2027年1月7日星期四。"
+ },
+ "zh-heiligabend-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "平安夜. 12月24日周四. 圣诞节前夜，最重要的家庭节日。商店通常中午就关门，很多办公室不上班。"
+ },
+ "zh-weihnachten-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "圣诞节（第一天和第二天）. 12/25周五至12/26周六. 法定节假日。商店、政府机关和许多诊所关闭。紧急情况：112，值班医生116 117。"
+ },
+ "zh-silvester-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "除夕（Silvester）. 12月31日周四. 一年的最后一天。烟花只在12月29日至31日出售，只允许在12月31日和1月1日燃放。只购买经过检验的烟花（CE标志），保持距离。急救电话112。"
+ },
+ "zh-neujahr-2027": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "元旦. 1月1日周五. 法定节假日。商店和政府机关关闭。新年快乐！"
+ },
+ "zh-dreikoenige-2027": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "主显节（三王节）. 1月6日周三. 基督教节日。北威州不放假，商店照常营业。孩子们扮成“星星歌手”挨家挨户为困境儿童募捐。"
+ },
+ "zh-orthodox-weihnachten-2027": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "东正教圣诞节. 1月7日周四. 许多东正教基督徒，例如来自俄罗斯、塞尔维亚、格鲁吉亚、厄立特里亚或埃塞俄比亚的人，今天庆祝圣诞节。"
+ }
+}
