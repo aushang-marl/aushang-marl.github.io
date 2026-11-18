@@ -182,6 +182,18 @@ def qr_img(url, out_dir):
     return q.svg_inline(scale=10, border=4, dark="#111111", omitsize=True)
 
 
+def photo_style(p, i, t):
+    """Optional faint place photo behind an item card: poster.item_photos[i] = "img/x.jpg"."""
+    photos = p.get("item_photos") or []
+    ph = photos[i] if i < len(photos) else None
+    if not ph:
+        return ""
+    ph, pos = (ph, "center") if isinstance(ph, str) else ph  # "img/x.jpg" or ["img/x.jpg", "center 70%"]
+    bg = t["bg2"]
+    return (f' style="background:linear-gradient(90deg,{bg}f2 0%,{bg}d9 48%,{bg}59 100%),'
+            f'url(\'{html.escape(ph)}\') {pos}/cover no-repeat;min-height:30mm"')
+
+
 def poster_html(n, svg):
     p, t = n["poster"], THEMES[n.get("theme", "night")]
     e = html.escape
@@ -213,15 +225,17 @@ h1{{text-align:center;font-size:{title_px}px;line-height:1.05;margin:3mm 0 6mm;f
 .qr h3{{margin:0 0 2mm;font-size:24px}}
 .qr p{{margin:0;font-size:14px;line-height:1.5}}
 .qr .langs{{font-family:'Noto Sans','Noto Sans Arabic',sans-serif;font-size:13.5px;color:#444;margin-top:2mm}}
+.credit{{font-size:9px;opacity:.75;text-align:right;margin:-2mm 0 1.5mm}}
 {extra}</style></head><body><div class="main">
 <div class="emoji">{e(n.get('emoji',''))}</div>
 <div class="kicker">{e(p.get('kicker',''))}</div>
 <h1>{e(p['title'])}</h1>
 <div class="date">{e(p.get('date',''))}</div>
 <div class="place">{e(p.get('place',''))}</div>
-{'<div class="items">'+''.join(f'<div class="item"><b>{e(a)}</b><div class="w">{e(b)}</div><div class="p">{e(c)}</div></div>' for a,b,c in p.get('items',[]))+'</div>' if p.get('items') else ''}
-<div class="text">{e(p.get('text',''))}</div>
+{'<div class="items">'+''.join(f'<div class="item"{photo_style(p, i, t)}><b>{e(a)}</b><div class="w">{e(b)}</div><div class="p">{e(c)}</div></div>' for i,(a,b,c) in enumerate(p.get('items',[])))+'</div>' if p.get('items') else ''}
+{f'<div class="text">{e(p["text"])}</div>' if p.get('text') else ''}
 <div class="note">{e(p.get('note',''))}</div></div>
+{f'<div class="credit">{e(p["photo_credit"])}</div>' if p.get('photo_credit') else ''}
 <div class="qr">{svg}<div><h3>📱 Scannen – in deiner Sprache</h3>
 <p>Mehr Infos in 10 Sprachen – auch zum Anhören 🔊</p><p class="langs">{SCAN_LINE}</p></div></div>
 </body></html>"""
