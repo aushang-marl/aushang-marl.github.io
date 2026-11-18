@@ -51,7 +51,7 @@ VOICES = {  # edge-tts neural voices; Kurdish has no voice -> Turkish voice read
 def audio_script(c, L):
     U = UI[c]
     parts = [L["title"] + ".", L.get("subtitle", "")]
-    parts += [f"{U.get(k, '')}: {v}." for k, v in L.get("facts", [])]
+    parts += [(f"{U[k]}: {v}." if U.get(k) else v) for k, v in L.get("facts", [])]
     parts.append(L.get("text", ""))
     if L.get("tips"):
         parts.append(U["tips"] + ": " + ". ".join(L["tips"]) + ".")
@@ -136,7 +136,7 @@ footer{{text-align:center;color:var(--muted);font-size:13px;padding-bottom:30px}
 </div>
 <script>
 const D={json.dumps(data, ensure_ascii=False)};
-const ICON={{when:"📅",where:"📍",who:"👨‍👩‍👧",wiki:"📖",video:"▶️",link:"🔗",info:"ℹ️",time:"⏰"}};
+const ICON={{market:"📍",when:"📅",where:"📍",who:"👨‍👩‍👧",wiki:"📖",video:"▶️",link:"🔗",info:"ℹ️",time:"⏰"}};
 const $=id=>document.getElementById(id);
 let CUR='',SPEAK='';
 function stopAudio(){{const a=$('player');a.pause();a.currentTime=0;if(window.speechSynthesis)speechSynthesis.cancel();setBtn(false)}}
@@ -150,13 +150,13 @@ function show(c){{
   document.documentElement.lang=c;document.documentElement.dir=dir;document.title=L.title;
   $('vEmoji').textContent=D.emoji;$('vTitle').textContent=L.title;$('vSub').textContent=L.subtitle||'';
   $('changeLbl').textContent=U.change;
-  $('vFacts').innerHTML=(L.facts||[]).map(([k,v])=>`<div class="fact"><span class="ic">${{ICON[k]||'•'}}</span><div><b>${{esc(U[k]||'')}}</b>${{esc(v)}}</div></div>`).join('');
+  $('vFacts').innerHTML=(L.facts||[]).map(([k,v])=>`<div class="fact"><span class="ic">${{ICON[k]||'•'}}</span><div>${{U[k]?'<b>'+esc(U[k])+'</b>':''}}${{esc(v)}}</div></div>`).join('');
   $('vText').textContent=L.text||'';
   $('vTipsCard').classList.toggle('hidden',!(L.tips&&L.tips.length));
   $('vTipsH').textContent=U.tips;$('vTips').innerHTML=(L.tips||[]).map(t=>`<li>${{esc(t)}}</li>`).join('');
   $('vBgH').textContent=L.bg_title||U.more;$('vBg').textContent=L.bg_text||'';
   $('vLinks').innerHTML=(L.links||[]).map(([k,label,url])=>`<a class="btn" href="${{esc(url)}}" target="_blank" rel="noopener"><span>${{ICON[k]||'🔗'}}</span>${{esc(label)}}</a>`).join('');
-  SPEAK=[L.title,L.subtitle,...(L.facts||[]).map(([k,v])=>(U[k]||'')+': '+v),L.text,...(L.tips||[]),L.bg_title,L.bg_text].filter(Boolean).join('. ');
+  SPEAK=[L.title,L.subtitle,...(L.facts||[]).map(([k,v])=>U[k]?U[k]+': '+v:v),L.text,...(L.tips||[]),L.bg_title,L.bg_text].filter(Boolean).join('. ');
   setBtn(false);
   $('picker').classList.add('hidden');$('view').classList.remove('hidden');scrollTo(0,0);$('listenBtn').focus();
 }}
@@ -185,30 +185,39 @@ def qr_img(url, out_dir):
 def poster_html(n, svg):
     p, t = n["poster"], THEMES[n.get("theme", "night")]
     e = html.escape
+    title_px = 80 if len(p["title"]) <= 13 else max(48, int(80 * 13 / len(p["title"])))
+    emoji_px = 90 if p.get("items") else 170
+    extra = ".kicker{margin-top:2mm!important}.note{font-size:20px!important;margin-top:5mm!important}.date{font-size:34px!important}.main{padding-bottom:4mm!important}" if p.get("items") else ""
     return f"""<!doctype html><html lang="de"><head><meta charset="utf-8"><title>{e(p['title'])} – Plakat</title>
 {FONTS}<style>
 @page{{size:A4;margin:0}}*{{box-sizing:border-box}}
 html,body{{margin:0;width:210mm;height:297mm}}
 body{{font-family:'Noto Sans',sans-serif;background:radial-gradient(circle at 75% 18%,rgba(255,190,60,.45),transparent 42%),linear-gradient(165deg,{t['bg']},{t['bg2']});color:{t['ink']};display:flex;flex-direction:column;padding:16mm 16mm 12mm;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
-.emoji{{font-size:170px;line-height:1;text-align:center;filter:drop-shadow(0 0 30px rgba(255,200,80,.8))}}
+.emoji{{font-size:{emoji_px}px;line-height:1;text-align:center;filter:drop-shadow(0 0 30px rgba(255,200,80,.8))}}
 .kicker{{text-align:center;text-transform:uppercase;letter-spacing:.3em;color:{t['accent']};font-weight:800;font-size:20px;margin-top:8mm}}
-h1{{text-align:center;font-size:80px;line-height:1.05;margin:3mm 0 6mm;font-weight:800}}
+h1{{text-align:center;font-size:{title_px}px;line-height:1.05;margin:3mm 0 6mm;font-weight:800}}
 .date{{text-align:center;font-size:40px;font-weight:800;color:{t['accent']}}}
 .place{{text-align:center;font-size:28px;font-weight:600;margin-top:2mm}}
 .text{{text-align:center;font-size:24px;margin:12mm 4mm 0;line-height:1.45}}
 .note{{text-align:center;font-size:26px;font-weight:600;margin-top:8mm;color:{t['accent']}}}
 .main{{flex:1;display:flex;flex-direction:column;justify-content:center;padding-bottom:8mm}}
+.items{{margin:8mm 0 0;display:grid;gap:4mm}}
+.item{{background:rgba(255,255,255,.1);border-left:2mm solid {t['accent']};border-radius:3mm;padding:3.5mm 5mm}}
+.item b{{display:block;font-size:26px;color:{t['accent']}}}
+.item .w{{font-size:20px;font-weight:600}}
+.item .p{{font-size:16px;opacity:.9}}
 .qr{{display:flex;gap:7mm;align-items:center;background:#fff;color:#111;border-radius:6mm;padding:5mm 7mm}}
 .qr svg{{width:44mm;height:44mm;flex:none}}
 .qr h3{{margin:0 0 2mm;font-size:24px}}
 .qr p{{margin:0;font-size:14px;line-height:1.5}}
 .qr .langs{{font-family:'Noto Sans','Noto Sans Arabic',sans-serif;font-size:13.5px;color:#444;margin-top:2mm}}
-</style></head><body><div class="main">
+{extra}</style></head><body><div class="main">
 <div class="emoji">{e(n.get('emoji',''))}</div>
 <div class="kicker">{e(p.get('kicker',''))}</div>
 <h1>{e(p['title'])}</h1>
 <div class="date">{e(p.get('date',''))}</div>
 <div class="place">{e(p.get('place',''))}</div>
+{'<div class="items">'+''.join(f'<div class="item"><b>{e(a)}</b><div class="w">{e(b)}</div><div class="p">{e(c)}</div></div>' for a,b,c in p.get('items',[]))+'</div>' if p.get('items') else ''}
 <div class="text">{e(p.get('text',''))}</div>
 <div class="note">{e(p.get('note',''))}</div></div>
 <div class="qr">{svg}<div><h3>📱 Scannen – in deiner Sprache</h3>

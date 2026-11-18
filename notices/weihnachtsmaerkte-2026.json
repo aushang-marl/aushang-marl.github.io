@@ -1,0 +1,190 @@
+{
+  "slug": "weihnachtsmaerkte-2026",
+  "emoji": "🎄",
+  "theme": "warm",
+  "poster": {
+    "kicker": "Advent in Marl",
+    "title": "Weihnachtsmärkte",
+    "date": "Eintritt frei",
+    "items": [
+      ["Alt-Marl", "Sa 28.11. ab 15 Uhr · So 29.11. 12–18 Uhr", "Rund um die St.-Georg-Kirche · Sa 17 Uhr: Nikolaus & Laternenumzug"],
+      ["Marler Weihnacht", "4.–6. und 11.–13.12. · Fr 16–21, Sa/So 14–21 Uhr", "Klinikpark Paracelsus, Lipper Weg 11 · Bus 220, 223, 227"],
+      ["Marler Stern", "Fr 18.12. – So 20.12.", "Einkaufszentrum, Bergstraße 228 · drinnen"]
+    ],
+    "note": "Essen und Getränke kosten Geld. Der Markt in Polsum findet 2026 nicht statt."
+  },
+  "langs": {
+    "de": {
+      "title": "Weihnachtsmärkte in Marl",
+      "subtitle": "Advent 2026 – Lichter, Musik und Leckeres. Eintritt frei!",
+      "facts": [
+        ["market", "Alt-Marl: Samstag 28.11. ab 15 Uhr, Sonntag 29.11. 12–18 Uhr, rund um die St.-Georg-Kirche. Samstag 17 Uhr: Nikolaus kommt mit der Kutsche, Laternenumzug für Kinder."],
+        ["market", "Marler Weihnacht im Klinikpark Paracelsus (Lipper Weg 11): 4.–6. und 11.–13. Dezember. Freitag 16–21 Uhr, Samstag und Sonntag 14–21 Uhr. Bus 220, 223 oder 227 bis „Paracelsus-Klinik“."],
+        ["market", "Marler Stern (Einkaufszentrum, Bergstraße 228): Freitag 18.12. bis Sonntag 20.12., drinnen und warm."]
+      ],
+      "text": "Ein Weihnachtsmarkt ist für alle offen. Ihr müsst keinen Eintritt bezahlen. Nur Essen, Getränke und Geschenke kosten Geld. Achtung: Der Weihnachtsmarkt in Polsum findet 2026 nicht statt.",
+      "tips": ["Glühwein enthält Alkohol – Kinderpunsch ist ohne Alkohol", "Bratwurst ist meist aus Schweinefleisch – fragt nach Alternativen", "Warme Kleidung anziehen, abends ist es kalt", "Kinder bleiben bei ihren Eltern"],
+      "bg_title": "Was ist ein Weihnachtsmarkt?",
+      "bg_text": "In den vier Wochen vor Weihnachten (Advent) gibt es in fast jeder deutschen Stadt Weihnachtsmärkte. Das sind Märkte mit kleinen Holzhütten, Lichtern und Musik. Man trifft Freunde und Nachbarn, isst gebrannte Mandeln oder Waffeln und trinkt etwas Warmes. Die Tradition ist über 600 Jahre alt. Alle sind willkommen – egal welche Religion.",
+      "links": [
+        ["wiki", "Wikipedia: Weihnachtsmarkt", "https://de.wikipedia.org/wiki/Weihnachtsmarkt"],
+        ["link", "Marler Weihnacht: Besucherinfos", "https://marlerweihnacht.de/besucherinformationen/"],
+        ["video", "Videos: Weihnachtsmarkt", "https://www.youtube.com/results?search_query=Weihnachtsmarkt+Deutschland+Tradition"]
+      ]
+    },
+    "ar": {
+      "title": "أسواق عيد الميلاد في مارل",
+      "subtitle": "زمن المجيء 2026 – أضواء وموسيقى وأطعمة لذيذة. الدخول مجاني!",
+      "facts": [
+        ["market", "آلت-مارل: السبت 28.11 من الساعة 15، الأحد 29.11 من 12 إلى 18، حول كنيسة القديس جورج. السبت الساعة 17: يصل نيكولاوس بالعربة، وموكب فوانيس للأطفال."],
+        ["market", "ميلاد مارل في حديقة مستشفى باراسيلسوس (Lipper Weg 11): 4–6 و11–13 ديسمبر. الجمعة 16–21، السبت والأحد 14–21. الحافلة 220 أو 223 أو 227 حتى محطة «Paracelsus-Klinik»."],
+        ["market", "مركز مارلر شتيرن التجاري (Bergstraße 228): من الجمعة 18.12 حتى الأحد 20.12، في الداخل ودافئ."]
+      ],
+      "text": "سوق عيد الميلاد مفتوح للجميع. لا تدفعون رسوم دخول. فقط الطعام والمشروبات والهدايا تكلّف مالًا. انتبهوا: سوق عيد الميلاد في بولسوم لن يُقام في 2026.",
+      "tips": ["مشروب «غلوفاين» يحتوي على كحول – «كيندربونش» بدون كحول", "النقانق (براتفورست) غالبًا من لحم الخنزير – اسألوا عن بديل", "البسوا ملابس دافئة، المساء بارد", "يبقى الأطفال مع والديهم"],
+      "bg_title": "ما هو سوق عيد الميلاد؟",
+      "bg_text": "في الأسابيع الأربعة قبل عيد الميلاد (زمن المجيء) تُقام أسواق عيد الميلاد في كل مدينة ألمانية تقريبًا. هي أسواق فيها أكشاك خشبية صغيرة وأضواء وموسيقى. يلتقي الناس بالأصدقاء والجيران، ويأكلون اللوز المحمّص أو الوافل ويشربون شيئًا دافئًا. عمر هذا التقليد أكثر من 600 سنة. الجميع مرحّب بهم مهما كان دينهم.",
+      "links": [
+        ["wiki", "ويكيبيديا: سوق عيد الميلاد", "https://ar.wikipedia.org/w/index.php?search=%D8%B3%D9%88%D9%82+%D8%B9%D9%8A%D8%AF+%D8%A7%D9%84%D9%85%D9%8A%D9%84%D8%A7%D8%AF"],
+        ["video", "فيديوهات: سوق عيد الميلاد", "https://www.youtube.com/results?search_query=Weihnachtsmarkt+Deutschland+Tradition"]
+      ]
+    },
+    "en": {
+      "title": "Christmas Markets in Marl",
+      "subtitle": "Advent 2026 – lights, music and tasty food. Free entry!",
+      "facts": [
+        ["market", "Alt-Marl: Saturday 28 Nov from 3 pm, Sunday 29 Nov 12–6 pm, around St. George's Church. Saturday 5 pm: St. Nicholas arrives by carriage, lantern walk for children."],
+        ["market", "Marler Weihnacht in the Paracelsus clinic park (Lipper Weg 11): 4–6 and 11–13 December. Friday 4–9 pm, Saturday and Sunday 2–9 pm. Bus 220, 223 or 227 to “Paracelsus-Klinik”."],
+        ["market", "Marler Stern shopping centre (Bergstraße 228): Friday 18 Dec to Sunday 20 Dec, indoors and warm."]
+      ],
+      "text": "A Christmas market is open to everyone. You do not pay an entrance fee. Only food, drinks and gifts cost money. Note: the Christmas market in Polsum will not take place in 2026.",
+      "tips": ["Glühwein (mulled wine) contains alcohol – Kinderpunsch is alcohol-free", "Bratwurst is usually pork – ask for alternatives", "Wear warm clothes, evenings are cold", "Children stay with their parents"],
+      "bg_title": "What is a Christmas market?",
+      "bg_text": "In the four weeks before Christmas (Advent), almost every German town has Christmas markets. They are markets with small wooden huts, lights and music. People meet friends and neighbours, eat roasted almonds or waffles and drink something warm. The tradition is more than 600 years old. Everyone is welcome – whatever their religion.",
+      "links": [
+        ["wiki", "Wikipedia: Christmas market", "https://en.wikipedia.org/wiki/Christmas_market"],
+        ["link", "Marler Weihnacht: visitor info (German)", "https://marlerweihnacht.de/besucherinformationen/"],
+        ["video", "Videos: German Christmas market", "https://www.youtube.com/results?search_query=Weihnachtsmarkt+Deutschland+Tradition"]
+      ]
+    },
+    "fr": {
+      "title": "Marchés de Noël à Marl",
+      "subtitle": "Avent 2026 – lumières, musique et bonnes choses. Entrée gratuite !",
+      "facts": [
+        ["market", "Alt-Marl : samedi 28/11 dès 15 h, dimanche 29/11 de 12 h à 18 h, autour de l'église Saint-Georges. Samedi 17 h : saint Nicolas arrive en calèche, défilé des lanternes pour les enfants."],
+        ["market", "Marler Weihnacht dans le parc de la clinique Paracelsus (Lipper Weg 11) : 4–6 et 11–13 décembre. Vendredi 16 h–21 h, samedi et dimanche 14 h–21 h. Bus 220, 223 ou 227 jusqu'à « Paracelsus-Klinik »."],
+        ["market", "Centre commercial Marler Stern (Bergstraße 228) : du vendredi 18/12 au dimanche 20/12, à l'intérieur et au chaud."]
+      ],
+      "text": "Un marché de Noël est ouvert à tous. L'entrée est gratuite. Seuls la nourriture, les boissons et les cadeaux sont payants. Attention : le marché de Noël de Polsum n'aura pas lieu en 2026.",
+      "tips": ["Le Glühwein (vin chaud) contient de l'alcool – le Kinderpunsch est sans alcool", "La Bratwurst est souvent au porc – demandez une alternative", "Habillez-vous chaudement, le soir il fait froid", "Les enfants restent avec leurs parents"],
+      "bg_title": "Qu'est-ce qu'un marché de Noël ?",
+      "bg_text": "Pendant les quatre semaines avant Noël (l'Avent), presque chaque ville allemande a des marchés de Noël : de petits chalets en bois, des lumières et de la musique. On y retrouve amis et voisins, on mange des amandes grillées ou des gaufres et on boit quelque chose de chaud. Cette tradition a plus de 600 ans. Tout le monde est bienvenu, quelle que soit sa religion.",
+      "links": [
+        ["wiki", "Wikipédia : marché de Noël", "https://fr.wikipedia.org/wiki/March%C3%A9_de_No%C3%ABl"],
+        ["video", "Vidéos : marché de Noël", "https://www.youtube.com/results?search_query=Weihnachtsmarkt+Deutschland+Tradition"]
+      ]
+    },
+    "ku": {
+      "title": "Bazarên Noelê li Marlê",
+      "subtitle": "Advent 2026 – ronahî, muzîk û xwarinên xweş. Ketin belaş e!",
+      "facts": [
+        ["market", "Alt-Marl: Şemî 28.11 ji saet 15an, Yekşem 29.11 saet 12–18, li dora Dêra St. Georg. Şemî saet 17: Nîkolaus bi erebeya hespan tê, meşa fenerê ji bo zarokan."],
+        ["market", "Marler Weihnacht li parka Klînîka Paracelsus (Lipper Weg 11): 4–6 û 11–13 Kanûn. În 16–21, Şemî û Yekşem 14–21. Otobûsa 220, 223 an 227 heta «Paracelsus-Klinik»."],
+        ["market", "Navenda kirînê Marler Stern (Bergstraße 228): ji Îna 18.12 heta Yekşema 20.12, li hundir û germ."]
+      ],
+      "text": "Bazara Noelê ji her kesî re vekirî ye. Hûn ji bo ketinê pere nadin. Tenê xwarin, vexwarin û diyarî bi pere ne. Hişyar: Bazara Noelê ya li Polsumê di 2026an de nayê lidarxistin.",
+      "tips": ["Glühwein alkol tê de heye – Kinderpunsch bê alkol e", "Bratwurst bi gelemperî ji goştê berazî ye – li alternatîfê bipirsin", "Cilên germ li xwe bikin, êvaran sar e", "Zarok li cem dê û bavên xwe dimînin"],
+      "bg_title": "Bazara Noelê çi ye?",
+      "bg_text": "Di çar hefteyên berî Noelê de (Advent) hema li her bajarekî Almanyayê bazarên Noelê hene. Ev bazar bi xaniyên piçûk ên darîn, ronahî û muzîkê ne. Mirov hevalan û cîranan dibînin, behîvên biraştî an wafel dixwin û tiştekî germ vedixwin. Ev kevneşopî ji 600 salan zêdetir e. Her kes bi xêr hatî ye – ji kîjan olê dibe bila bibe.",
+      "links": [
+        ["wiki", "Wikipedia (Îngilîzî): Christmas market", "https://en.wikipedia.org/wiki/Christmas_market"],
+        ["video", "Vîdyo: Bazara Noelê", "https://www.youtube.com/results?search_query=Weihnachtsmarkt+Deutschland+Tradition"]
+      ]
+    },
+    "tr": {
+      "title": "Marl'da Noel Pazarları",
+      "subtitle": "Advent 2026 – ışıklar, müzik ve lezzetler. Giriş ücretsiz!",
+      "facts": [
+        ["market", "Alt-Marl: Cumartesi 28.11 saat 15'ten itibaren, Pazar 29.11 saat 12–18, St. Georg Kilisesi çevresinde. Cumartesi saat 17: Nikolaus at arabasıyla geliyor, çocuklar için fener alayı."],
+        ["market", "Marler Weihnacht, Paracelsus Kliniği parkında (Lipper Weg 11): 4–6 ve 11–13 Aralık. Cuma 16–21, Cumartesi ve Pazar 14–21. 220, 223 veya 227 numaralı otobüsle «Paracelsus-Klinik» durağına."],
+        ["market", "Marler Stern alışveriş merkezi (Bergstraße 228): Cuma 18.12'den Pazar 20.12'ye kadar, kapalı ve sıcak alanda."]
+      ],
+      "text": "Noel pazarı herkese açıktır. Giriş ücreti ödemezsiniz. Sadece yiyecek, içecek ve hediyeler paralıdır. Dikkat: Polsum'daki Noel pazarı 2026'da yapılmayacak.",
+      "tips": ["Glühwein alkol içerir – Kinderpunsch alkolsüzdür", "Bratwurst (sosis) genelde domuz etidir – alternatif sorun", "Kalın giyinin, akşamlar soğuk", "Çocuklar ebeveynlerinin yanında kalır"],
+      "bg_title": "Noel pazarı nedir?",
+      "bg_text": "Noel'den önceki dört haftada (Advent) Almanya'da neredeyse her şehirde Noel pazarları kurulur. Küçük ahşap kulübeler, ışıklar ve müzikle dolu pazarlardır. İnsanlar arkadaşları ve komşularıyla buluşur, kavrulmuş badem ya da waffle yer, sıcak bir şeyler içer. Bu gelenek 600 yıldan daha eskidir. Dini ne olursa olsun herkes davetlidir.",
+      "links": [
+        ["wiki", "Vikipedi: Noel pazarı", "https://tr.wikipedia.org/w/index.php?search=Noel+pazar%C4%B1"],
+        ["video", "Videolar: Noel pazarı", "https://www.youtube.com/results?search_query=Weihnachtsmarkt+Deutschland+Tradition"]
+      ]
+    },
+    "sq": {
+      "title": "Tregjet e Krishtlindjeve në Marl",
+      "subtitle": "Advent 2026 – drita, muzikë dhe ushqime të shijshme. Hyrja falas!",
+      "facts": [
+        ["market", "Alt-Marl: e shtunë 28.11 nga ora 15, e diel 29.11 ora 12–18, rreth kishës St. Georg. E shtunë ora 17: Shën Nikolla vjen me karrocë, paradë me fenerë për fëmijët."],
+        ["market", "Marler Weihnacht në parkun e klinikës Paracelsus (Lipper Weg 11): 4–6 dhe 11–13 dhjetor. E premte 16–21, e shtunë dhe e diel 14–21. Autobusi 220, 223 ose 227 deri te «Paracelsus-Klinik»."],
+        ["market", "Qendra tregtare Marler Stern (Bergstraße 228): nga e premtja 18.12 deri të dielën 20.12, brenda dhe ngrohtë."]
+      ],
+      "text": "Tregu i Krishtlindjeve është i hapur për të gjithë. Nuk paguani hyrje. Vetëm ushqimi, pijet dhe dhuratat kushtojnë para. Kujdes: tregu i Krishtlindjeve në Polsum nuk mbahet në 2026.",
+      "tips": ["Glühwein përmban alkool – Kinderpunsch është pa alkool", "Bratwurst zakonisht është prej mishi derri – pyesni për alternativa", "Vishuni ngrohtë, mbrëmjet janë të ftohta", "Fëmijët qëndrojnë me prindërit"],
+      "bg_title": "Çfarë është tregu i Krishtlindjeve?",
+      "bg_text": "Në katër javët para Krishtlindjeve (Adventi) pothuajse çdo qytet gjerman ka tregje Krishtlindjesh, me kasolle të vogla prej druri, drita dhe muzikë. Njerëzit takojnë miq dhe fqinj, hanë bajame të pjekura ose vafla dhe pinë diçka të ngrohtë. Kjo traditë është mbi 600 vjeç. Të gjithë janë të mirëpritur, pavarësisht fesë.",
+      "links": [
+        ["wiki", "Wikipedia: Tregu i Krishtlindjeve", "https://sq.wikipedia.org/w/index.php?search=Tregu+i+Krishtlindjeve"],
+        ["video", "Video: tregu i Krishtlindjeve", "https://www.youtube.com/results?search_query=Weihnachtsmarkt+Deutschland+Tradition"]
+      ]
+    },
+    "ru": {
+      "title": "Рождественские ярмарки в Марле",
+      "subtitle": "Адвент 2026 – огни, музыка и вкусная еда. Вход бесплатный!",
+      "facts": [
+        ["market", "Альт-Марль: суббота 28.11 с 15:00, воскресенье 29.11 с 12:00 до 18:00, у церкви Святого Георгия. Суббота 17:00: Николаус приезжает в карете, шествие с фонариками для детей."],
+        ["market", "Marler Weihnacht в парке клиники Парацельса (Lipper Weg 11): 4–6 и 11–13 декабря. Пятница 16–21, суббота и воскресенье 14–21. Автобус 220, 223 или 227 до остановки «Paracelsus-Klinik»."],
+        ["market", "Торговый центр Marler Stern (Bergstraße 228): с пятницы 18.12 по воскресенье 20.12, в помещении и в тепле."]
+      ],
+      "text": "Рождественская ярмарка открыта для всех. Платить за вход не нужно. Деньги стоят только еда, напитки и подарки. Внимание: ярмарки в Польсуме в 2026 году не будет.",
+      "tips": ["Глинтвейн (Glühwein) содержит алкоголь – Kinderpunsch без алкоголя", "Братвурст обычно из свинины – спросите альтернативу", "Одевайтесь тепло, вечером холодно", "Дети остаются с родителями"],
+      "bg_title": "Что такое рождественская ярмарка?",
+      "bg_text": "В четыре недели перед Рождеством (Адвент) почти в каждом немецком городе работают рождественские ярмарки: маленькие деревянные домики, огни и музыка. Люди встречаются с друзьями и соседями, едят жареный миндаль или вафли и пьют что-нибудь горячее. Этой традиции более 600 лет. Рады всем, независимо от религии.",
+      "links": [
+        ["wiki", "Википедия: Рождественская ярмарка", "https://ru.wikipedia.org/w/index.php?search=%D0%A0%D0%BE%D0%B6%D0%B4%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D1%8F%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D0%B0"],
+        ["video", "Видео: рождественская ярмарка", "https://www.youtube.com/results?search_query=Weihnachtsmarkt+Deutschland+Tradition"]
+      ]
+    },
+    "fa": {
+      "title": "بازارهای کریسمس در مارل",
+      "subtitle": "ادونت ۲۰۲۶ – نور، موسیقی و خوراکی‌های خوشمزه. ورود رایگان!",
+      "facts": [
+        ["market", "آلت-مارل: شنبه ۲۸ نوامبر از ساعت ۱۵، یکشنبه ۲۹ نوامبر ساعت ۱۲ تا ۱۸، اطراف کلیسای سنت گئورگ. شنبه ساعت ۱۷: نیکولاوس با کالسکه می‌آید و رژهٔ فانوس برای کودکان."],
+        ["market", "مارلر وایناخت در پارک کلینیک پاراسلسوس (Lipper Weg 11): ۴ تا ۶ و ۱۱ تا ۱۳ دسامبر. جمعه ۱۶ تا ۲۱، شنبه و یکشنبه ۱۴ تا ۲۱. اتوبوس ۲۲۰، ۲۲۳ یا ۲۲۷ تا ایستگاه «Paracelsus-Klinik»."],
+        ["market", "مرکز خرید مارلر اشترن (Bergstraße 228): از جمعه ۱۸ تا یکشنبه ۲۰ دسامبر، داخل سالن و گرم."]
+      ],
+      "text": "بازار کریسمس برای همه باز است. لازم نیست پول ورودی بدهید. فقط غذا، نوشیدنی و هدیه پول دارد. توجه: بازار کریسمس پولزوم در سال ۲۰۲۶ برگزار نمی‌شود.",
+      "tips": ["«گلوواین» الکل دارد – «کیندرپونش» بدون الکل است", "سوسیس «براتورست» معمولاً از گوشت خوک است – گزینهٔ دیگر بپرسید", "لباس گرم بپوشید، شب‌ها سرد است", "کودکان کنار والدین خود می‌مانند"],
+      "bg_title": "بازار کریسمس چیست؟",
+      "bg_text": "در چهار هفتهٔ پیش از کریسمس (ادونت) تقریباً در هر شهر آلمان بازار کریسمس برپا می‌شود: کلبه‌های کوچک چوبی، چراغ‌ها و موسیقی. مردم دوستان و همسایه‌ها را می‌بینند، بادام بوداده یا وافل می‌خورند و چیزی گرم می‌نوشند. این سنت بیش از ۶۰۰ سال قدمت دارد. همه خوش آمدید، از هر دینی که باشید.",
+      "links": [
+        ["wiki", "ویکی‌پدیا: بازار کریسمس", "https://fa.wikipedia.org/w/index.php?search=%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1+%DA%A9%D8%B1%DB%8C%D8%B3%D9%85%D8%B3"],
+        ["video", "ویدیو: بازار کریسمس", "https://www.youtube.com/results?search_query=Weihnachtsmarkt+Deutschland+Tradition"]
+      ]
+    },
+    "zh": {
+      "title": "马尔圣诞市场",
+      "subtitle": "2026年将临期 —— 灯光、音乐和美食。免费入场！",
+      "facts": [
+        ["market", "老马尔（Alt-Marl）：11月28日（星期六）15点起，11月29日（星期日）12–18点，在圣乔治教堂周围。星期六17点：圣尼古拉乘马车到来，儿童灯笼游行。"],
+        ["market", "马尔圣诞（Marler Weihnacht），帕拉塞尔苏斯医院公园（Lipper Weg 11）：12月4–6日和11–13日。星期五16–21点，星期六和星期日14–21点。乘220、223或227路公交车到“Paracelsus-Klinik”站。"],
+        ["market", "Marler Stern购物中心（Bergstraße 228）：12月18日（星期五）至20日（星期日），室内，温暖。"]
+      ],
+      "text": "圣诞市场对所有人开放，不需要门票。只有食物、饮料和礼物需要付钱。注意：波尔苏姆（Polsum）的圣诞市场2026年不举办。",
+      "tips": ["热红酒（Glühwein）含酒精，儿童热饮（Kinderpunsch）不含酒精", "烤香肠（Bratwurst）通常是猪肉做的，可以询问其他选择", "请穿暖和的衣服，晚上很冷", "孩子请跟在父母身边"],
+      "bg_title": "什么是圣诞市场？",
+      "bg_text": "在圣诞节前的四个星期（将临期），几乎每个德国城市都有圣诞市场：小木屋、灯光和音乐。人们和朋友、邻居见面，吃烤杏仁或华夫饼，喝热饮。这个传统已有600多年历史。无论信仰什么宗教，大家都欢迎。",
+      "links": [
+        ["wiki", "维基百科：圣诞市场", "https://zh.wikipedia.org/w/index.php?search=%E5%9C%A3%E8%AF%9E%E5%B8%82%E5%9C%BA"],
+        ["video", "视频：圣诞市场", "https://www.youtube.com/results?search_query=Weihnachtsmarkt+Deutschland+Tradition"]
+      ]
+    }
+  }
+}
