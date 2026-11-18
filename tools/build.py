@@ -28,17 +28,36 @@ LANGS = [  # code, native name, direction
 ]
 
 UI = {
-    "de": {"pick": "Sprache wählen", "change": "Sprache", "when": "Wann", "where": "Wo", "who": "Für wen", "tips": "Gut zu wissen", "more": "Mehr erfahren"},
-    "ar": {"pick": "اختر اللغة", "change": "اللغة", "when": "متى", "where": "أين", "who": "لمن", "tips": "معلومات مفيدة", "more": "اعرف المزيد"},
-    "en": {"pick": "Choose your language", "change": "Language", "when": "When", "where": "Where", "who": "For whom", "tips": "Good to know", "more": "Learn more"},
-    "fr": {"pick": "Choisissez la langue", "change": "Langue", "when": "Quand", "where": "Où", "who": "Pour qui", "tips": "Bon à savoir", "more": "En savoir plus"},
-    "ku": {"pick": "Zimanê xwe hilbijêre", "change": "Ziman", "when": "Kengî", "where": "Li ku", "who": "Ji bo kê", "tips": "Baş e ku bizanibin", "more": "Bêtir fêr bibe"},
-    "tr": {"pick": "Dil seçin", "change": "Dil", "when": "Ne zaman", "where": "Nerede", "who": "Kimler için", "tips": "Bilmekte fayda var", "more": "Daha fazla bilgi"},
-    "sq": {"pick": "Zgjidhni gjuhën", "change": "Gjuha", "when": "Kur", "where": "Ku", "who": "Për kë", "tips": "Mirë të dini", "more": "Mësoni më shumë"},
-    "ru": {"pick": "Выберите язык", "change": "Язык", "when": "Когда", "where": "Где", "who": "Для кого", "tips": "Полезно знать", "more": "Узнать больше"},
-    "fa": {"pick": "زبان را انتخاب کنید", "change": "زبان", "when": "کی", "where": "کجا", "who": "برای چه کسانی", "tips": "خوب است بدانید", "more": "بیشتر بدانید"},
-    "zh": {"pick": "请选择语言", "change": "语言", "when": "时间", "where": "地点", "who": "对象", "tips": "温馨提示", "more": "了解更多"},
+    "de": {"pick": "Sprache wählen", "change": "Sprache", "when": "Wann", "where": "Wo", "who": "Für wen", "tips": "Gut zu wissen", "more": "Mehr erfahren", "listen": "Anhören", "stop": "Stopp"},
+    "ar": {"pick": "اختر اللغة", "change": "اللغة", "when": "متى", "where": "أين", "who": "لمن", "tips": "معلومات مفيدة", "more": "اعرف المزيد", "listen": "استمع", "stop": "إيقاف"},
+    "en": {"pick": "Choose your language", "change": "Language", "when": "When", "where": "Where", "who": "For whom", "tips": "Good to know", "more": "Learn more", "listen": "Listen", "stop": "Stop"},
+    "fr": {"pick": "Choisissez la langue", "change": "Langue", "when": "Quand", "where": "Où", "who": "Pour qui", "tips": "Bon à savoir", "more": "En savoir plus", "listen": "Écouter", "stop": "Arrêter"},
+    "ku": {"pick": "Zimanê xwe hilbijêre", "change": "Ziman", "when": "Kengî", "where": "Li ku", "who": "Ji bo kê", "tips": "Baş e ku bizanibin", "more": "Bêtir fêr bibe", "listen": "Guhdarî bike", "stop": "Rawestîne"},
+    "tr": {"pick": "Dil seçin", "change": "Dil", "when": "Ne zaman", "where": "Nerede", "who": "Kimler için", "tips": "Bilmekte fayda var", "more": "Daha fazla bilgi", "listen": "Dinle", "stop": "Durdur"},
+    "sq": {"pick": "Zgjidhni gjuhën", "change": "Gjuha", "when": "Kur", "where": "Ku", "who": "Për kë", "tips": "Mirë të dini", "more": "Mësoni më shumë", "listen": "Dëgjo", "stop": "Ndalo"},
+    "ru": {"pick": "Выберите язык", "change": "Язык", "when": "Когда", "where": "Где", "who": "Для кого", "tips": "Полезно знать", "more": "Узнать больше", "listen": "Слушать", "stop": "Стоп"},
+    "fa": {"pick": "زبان را انتخاب کنید", "change": "زبان", "when": "کی", "where": "کجا", "who": "برای چه کسانی", "tips": "خوب است بدانید", "more": "بیشتر بدانید", "listen": "گوش دهید", "stop": "توقف"},
+    "zh": {"pick": "请选择语言", "change": "语言", "when": "时间", "where": "地点", "who": "对象", "tips": "温馨提示", "more": "了解更多", "listen": "收听", "stop": "停止"},
 }
+
+VOICES = {  # edge-tts neural voices; Kurdish has no voice -> Turkish voice reads the Kurmanji text
+    "de": "de-DE-KatjaNeural", "ar": "ar-SY-AmanyNeural", "en": "en-GB-SoniaNeural",
+    "fr": "fr-FR-DeniseNeural", "ku": "tr-TR-EmelNeural", "tr": "tr-TR-EmelNeural",
+    "sq": "sq-AL-AnilaNeural", "ru": "ru-RU-SvetlanaNeural", "fa": "fa-IR-DilaraNeural",
+    "zh": "zh-CN-XiaoxiaoNeural",
+}
+
+
+def audio_script(c, L):
+    U = UI[c]
+    parts = [L["title"] + ".", L.get("subtitle", "")]
+    parts += [f"{U.get(k, '')}: {v}." for k, v in L.get("facts", [])]
+    parts.append(L.get("text", ""))
+    if L.get("tips"):
+        parts.append(U["tips"] + ": " + ". ".join(L["tips"]) + ".")
+    parts += [L.get("bg_title", ""), L.get("bg_text", "")]
+    return "\n".join(p for p in parts if p)
+
 
 SCAN_LINE = "Übersetzung · ترجمة · Translation · Traduction · Werger · Çeviri · Përkthim · Перевод · ترجمه · 翻译"
 
@@ -57,7 +76,8 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
 def page_html(n, url):
     t = THEMES[n.get("theme", "night")]
     data = {"emoji": n.get("emoji", "📢"), "langs": n["langs"], "ui": UI,
-            "order": [[c, name, d] for c, name, d in LANGS if c in n["langs"]]}
+            "order": [[c, name, d] for c, name, d in LANGS if c in n["langs"]],
+            "audio": n.get("_audio", []), "bcp": {"de":"de-DE","ar":"ar","en":"en-GB","fr":"fr-FR","ku":"ku","tr":"tr-TR","sq":"sq-AL","ru":"ru-RU","fa":"fa-IR","zh":"zh-CN"}}
     title = html.escape(n["langs"]["de"]["title"])
     return f"""<!doctype html>
 <html lang="de"><head><meta charset="utf-8">
@@ -89,6 +109,9 @@ ul{{margin:0;padding-inline-start:22px}}
 a.btn{{display:flex;gap:10px;align-items:center;padding:14px 16px;margin:8px 0 0;border-radius:12px;background:var(--bg);color:var(--ink);text-decoration:none;font-weight:600}}
 .top{{position:sticky;top:0;z-index:2;display:flex;justify-content:flex-end;padding:8px 12px;background:var(--bg2)}}
 .top button{{border:1px solid rgba(255,255,255,.4);background:transparent;color:var(--ink);border-radius:999px;padding:6px 14px;font:inherit;cursor:pointer}}
+.listen{{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;padding:18px;margin:0 0 14px;border:0;border-radius:16px;background:var(--ac);color:#111;font:inherit;font-size:22px;font-weight:800;cursor:pointer;box-shadow:0 4px 18px rgba(0,0,0,.12)}}
+.listen:focus-visible,.lang:focus-visible{{outline:4px solid #000;outline-offset:2px}}
+.sr{{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}}
 .hidden{{display:none}}
 footer{{text-align:center;color:var(--muted);font-size:13px;padding-bottom:30px}}
 </style></head>
@@ -96,12 +119,14 @@ footer{{text-align:center;color:var(--muted);font-size:13px;padding-bottom:30px}
 <div id="picker">
   <div class="hero"><div class="emoji">🌐</div><h1>{title}</h1>
   <p class="sub" id="pickTitle">Sprache wählen · اختر اللغة · Choose your language</p></div>
-  <main><div class="grid" id="langGrid"></div></main>
+  <main><h2 class="sr">Sprache wählen / Choose language</h2><div class="grid" id="langGrid" role="list"></div></main>
 </div>
 <div id="view" class="hidden">
   <div class="top"><button id="changeBtn">🌐 <span id="changeLbl"></span></button></div>
   <div class="hero"><div class="emoji" id="vEmoji"></div><h1 id="vTitle"></h1><p class="sub" id="vSub"></p></div>
   <main>
+    <button class="listen" id="listenBtn" type="button"><span aria-hidden="true">🔊</span><span id="listenLbl"></span></button>
+    <audio id="player" preload="none"></audio>
     <section class="card" id="vFacts"></section>
     <section class="card"><p id="vText" style="margin:0;font-size:18px"></p></section>
     <section class="card" id="vTipsCard"><h2 id="vTipsH"></h2><ul id="vTips"></ul></section>
@@ -113,10 +138,15 @@ footer{{text-align:center;color:var(--muted);font-size:13px;padding-bottom:30px}
 const D={json.dumps(data, ensure_ascii=False)};
 const ICON={{when:"📅",where:"📍",who:"👨‍👩‍👧",wiki:"📖",video:"▶️",link:"🔗",info:"ℹ️",time:"⏰"}};
 const $=id=>document.getElementById(id);
+let CUR='',SPEAK='';
+function stopAudio(){{const a=$('player');a.pause();a.currentTime=0;if(window.speechSynthesis)speechSynthesis.cancel();setBtn(false)}}
+function setBtn(on){{const U=D.ui[CUR]||D.ui.en;$('listenLbl').textContent=on?U.stop:U.listen;$('listenBtn').setAttribute('aria-pressed',on)}}
+function playing(){{return !$('player').paused||(window.speechSynthesis&&speechSynthesis.speaking)}}
+$('player').onended=()=>setBtn(false);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c]));
-D.order.forEach(([c,name])=>{{const b=document.createElement('button');b.className='lang '+c;b.textContent=name;b.lang=c;b.onclick=()=>{{location.hash=c}};$('langGrid').appendChild(b)}});
+D.order.forEach(([c,name])=>{{const b=document.createElement('button');b.className='lang '+c;b.textContent=name;b.lang=c;b.setAttribute('role','listitem');b.onclick=()=>{{location.hash=c}};$('langGrid').appendChild(b)}});
 function show(c){{
-  const L=D.langs[c],U=D.ui[c]||D.ui.en,dir=(D.order.find(o=>o[0]===c)||[])[2]||'ltr';
+  CUR=c;const L=D.langs[c],U=D.ui[c]||D.ui.en,dir=(D.order.find(o=>o[0]===c)||[])[2]||'ltr';
   document.documentElement.lang=c;document.documentElement.dir=dir;document.title=L.title;
   $('vEmoji').textContent=D.emoji;$('vTitle').textContent=L.title;$('vSub').textContent=L.subtitle||'';
   $('changeLbl').textContent=U.change;
@@ -126,10 +156,17 @@ function show(c){{
   $('vTipsH').textContent=U.tips;$('vTips').innerHTML=(L.tips||[]).map(t=>`<li>${{esc(t)}}</li>`).join('');
   $('vBgH').textContent=L.bg_title||U.more;$('vBg').textContent=L.bg_text||'';
   $('vLinks').innerHTML=(L.links||[]).map(([k,label,url])=>`<a class="btn" href="${{esc(url)}}" target="_blank" rel="noopener"><span>${{ICON[k]||'🔗'}}</span>${{esc(label)}}</a>`).join('');
-  $('picker').classList.add('hidden');$('view').classList.remove('hidden');scrollTo(0,0);
+  SPEAK=[L.title,L.subtitle,...(L.facts||[]).map(([k,v])=>(U[k]||'')+': '+v),L.text,...(L.tips||[]),L.bg_title,L.bg_text].filter(Boolean).join('. ');
+  setBtn(false);
+  $('picker').classList.add('hidden');$('view').classList.remove('hidden');scrollTo(0,0);$('listenBtn').focus();
 }}
 function route(){{const c=location.hash.slice(1);if(D.langs[c])show(c);else{{document.documentElement.dir='ltr';$('view').classList.add('hidden');$('picker').classList.remove('hidden')}}}}
-$('changeBtn').onclick=()=>{{location.hash=''}};
+$('changeBtn').onclick=()=>{{stopAudio();location.hash=''}};
+$('listenBtn').onclick=()=>{{
+  if(playing()){{stopAudio();return}}
+  if(D.audio.includes(CUR)){{const a=$('player');a.src='audio/'+CUR+'.mp3';a.play();setBtn(true);return}}
+  if(window.speechSynthesis){{const u=new SpeechSynthesisUtterance(SPEAK);u.lang=D.bcp[CUR]||CUR;u.onend=()=>setBtn(false);speechSynthesis.speak(u);setBtn(true)}}
+}};
 addEventListener('hashchange',route);
 // Always ask for the language first when the QR code is scanned (no hash in the QR URL).
 route();
@@ -175,7 +212,7 @@ h1{{text-align:center;font-size:80px;line-height:1.05;margin:3mm 0 6mm;font-weig
 <div class="text">{e(p.get('text',''))}</div>
 <div class="note">{e(p.get('note',''))}</div></div>
 <div class="qr">{svg}<div><h3>📱 Scannen – in deiner Sprache</h3>
-<p>Mehr Infos in 10 Sprachen.</p><p class="langs">{SCAN_LINE}</p></div></div>
+<p>Mehr Infos in 10 Sprachen – auch zum Anhören 🔊</p><p class="langs">{SCAN_LINE}</p></div></div>
 </body></html>"""
 
 
@@ -186,7 +223,7 @@ html,body{{margin:0;width:148mm;height:105mm}}
 body{{font-family:'Noto Sans','Noto Sans Arabic',sans-serif;display:flex;align-items:center;gap:6mm;padding:8mm;border:2mm solid #14213d}}
 svg{{width:62mm;height:62mm;flex:none}}h2{{margin:0 0 3mm;font-size:22px}}p{{margin:0;font-size:13px;color:#333;line-height:1.6}}
 </style></head><body>{svg}<div><h2>🌐 {html.escape(n['langs']['de']['title'])}</h2>
-<p><b>Scannen – in deiner Sprache</b></p><p>{SCAN_LINE}</p></div></body></html>"""
+<p><b>Scannen – in deiner Sprache · 🔊 auch zum Anhören</b></p><p>{SCAN_LINE}</p></div></body></html>"""
 
 
 def main(src):
@@ -195,6 +232,11 @@ def main(src):
     out = ROOT / rel(slug)
     out.mkdir(parents=True, exist_ok=True)
     url = f"{BASE}/{rel(slug)}/"
+    adir = out / "audio"
+    adir.mkdir(exist_ok=True)
+    scripts = {c: {"voice": VOICES[c], "text": audio_script(c, L)} for c, L in n["langs"].items() if c in VOICES}
+    (adir / "scripts.json").write_text(json.dumps(scripts, ensure_ascii=False, indent=1))
+    n["_audio"] = sorted(c for c in scripts if (adir / f"{c}.mp3").exists())
     (out / "index.html").write_text(page_html(n, url))
     svg = qr_img(url, out)
     if "poster" in n:
