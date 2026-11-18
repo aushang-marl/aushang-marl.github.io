@@ -12,6 +12,7 @@ node tools/render.js <slug>                 # poster.pdf, label.pdf, önizlemele
 - `poster.pdf` – QR kodlu Almanca A4 afiş
 - `label.pdf` – mevcut bir afişin üstüne yapıştırmak için A6 QR etiketi
 - `qr.svg`, `qr.png` – sadece QR kod
+- `audio/<dil>.mp3` – görme engelliler için sesli anlatım (tools/tts.py ile Mac üzerinde üretilir)
 
 Diller: de, ar, en, fr, ku (Kurmancî), tr, sq, ru, fa, zh.
 Temalar (`theme`): night, warm, fresh, info.
