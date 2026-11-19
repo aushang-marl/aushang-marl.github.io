@@ -79,6 +79,10 @@
   "voice": "de-DE-KatjaNeural",
   "text": "Orthodoxes Weihnachten. Do., 7. Januar. Viele orthodoxe Christen, zum Beispiel aus Russland, Serbien, Georgien, Eritrea oder Äthiopien, feiern heute Weihnachten."
  },
+ "de-orange-day-2026": {
+  "voice": "de-DE-KatjaNeural",
+  "text": "Orange Day – gegen Gewalt an Frauen. Mi., 25. November. Internationaler Tag gegen Gewalt an Frauen. Gebäude leuchten orange. Hilfe für Frauen: Hilfetelefon 116 016 – kostenlos, anonym, Tag und Nacht, in vielen Sprachen. Im Notfall 110."
+ },
  "ar-intro": {
   "voice": "ar-SY-AmanyNeural",
   "text": "المواعيد القادمة. هنا تجد دائماً المواعيد القادمة في مارل وما حولها. المواعيد الماضية تختفي تلقائياً."
@@ -158,6 +162,10 @@
  "ar-orthodox-weihnachten-2027": {
   "voice": "ar-SY-AmanyNeural",
   "text": "عيد الميلاد الأرثوذكسي. الخميس، 7 يناير. يحتفل كثير من المسيحيين الأرثوذكس اليوم بعيد الميلاد، مثلاً من روسيا وصربيا وجورجيا وإريتريا وإثيوبيا."
+ },
+ "ar-orange-day-2026": {
+  "voice": "ar-SY-AmanyNeural",
+  "text": "اليوم البرتقالي – ضد العنف ضد المرأة. الأربعاء، 25 نوفمبر. اليوم الدولي للقضاء على العنف ضد المرأة. تُضاء المباني باللون البرتقالي. مساعدة للنساء: خط المساعدة 116 016 – مجاني، بدون ذكر الاسم، ليلاً ونهاراً، بلغات كثيرة. في الطوارئ 110."
  },
  "en-intro": {
   "voice": "en-GB-SoniaNeural",
@@ -239,6 +247,10 @@
   "voice": "en-GB-SoniaNeural",
   "text": "Orthodox Christmas. Thu 7 January. Many Orthodox Christians, for example from Russia, Serbia, Georgia, Eritrea or Ethiopia, celebrate Christmas today."
  },
+ "en-orange-day-2026": {
+  "voice": "en-GB-SoniaNeural",
+  "text": "Orange Day – against violence against women. Wed 25 November. International Day for the Elimination of Violence against Women. Buildings are lit orange. Help for women: helpline 116 016 – free, anonymous, day and night, in many languages. Emergency 110."
+ },
  "fr-intro": {
   "voice": "fr-FR-DeniseNeural",
   "text": "Prochaines dates. Vous trouvez ici toujours les prochaines dates à Marl et dans les environs. Les dates passées disparaissent automatiquement."
@@ -318,6 +330,10 @@
  "fr-orthodox-weihnachten-2027": {
   "voice": "fr-FR-DeniseNeural",
   "text": "Noël orthodoxe. jeu. 7 janvier. Beaucoup de chrétiens orthodoxes, par exemple de Russie, de Serbie, de Géorgie, d'Érythrée ou d'Éthiopie, fêtent Noël aujourd'hui."
+ },
+ "fr-orange-day-2026": {
+  "voice": "fr-FR-DeniseNeural",
+  "text": "Orange Day – contre les violences faites aux femmes. mer. 25 novembre. Journée internationale pour l'élimination de la violence à l'égard des femmes. Des bâtiments s'illuminent en orange. Aide pour les femmes : ligne 116 016 – gratuite, anonyme, jour et nuit, en plusieurs langues. Urgence 110."
  },
  "ku-intro": {
   "voice": "tr-TR-EmelNeural",
@@ -399,6 +415,10 @@
   "voice": "tr-TR-EmelNeural",
   "text": "Noela Ortodoks. Pêncşem 7 Çile. Gelek xiristiyanên ortodoks, wek ji Rûsya, Sirbistan, Gurcistan, Erître an Etiyopyayê, îro Noelê pîroz dikin."
  },
+ "ku-orange-day-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Roja Porteqalî – li dijî tundiya li ser jinan. Çarşem 25 Mijdar. Roja Navneteweyî ya li dijî tundiya li ser jinan. Avahî bi rengê porteqalî ronî dibin. Alîkarî ji bo jinan: xeta alîkariyê 116 016 – belaş, bênav, şev û roj, bi gelek zimanan. Acîl 110."
+ },
  "tr-intro": {
   "voice": "tr-TR-EmelNeural",
   "text": "Yaklaşan etkinlikler. Burada her zaman Marl ve çevresindeki yaklaşan etkinlikleri bulursunuz. Geçmiş etkinlikler kendiliğinden kaybolur."
@@ -478,6 +498,10 @@
  "tr-orthodox-weihnachten-2027": {
   "voice": "tr-TR-EmelNeural",
   "text": "Ortodoks Noeli. 7 Ocak Per. Rusya, Sırbistan, Gürcistan, Eritre veya Etiyopya gibi ülkelerden birçok Ortodoks Hristiyan bugün Noel'i kutluyor."
+ },
+ "tr-orange-day-2026": {
+  "voice": "tr-TR-EmelNeural",
+  "text": "Turuncu Gün – kadına yönelik şiddete karşı. 25 Kasım Çar. Kadına Yönelik Şiddete Karşı Uluslararası Mücadele Günü. Binalar turuncu ışıkla aydınlatılır. Kadınlar için yardım hattı 116 016 – ücretsiz, isimsiz, gece gündüz, birçok dilde. Acil durumda 110."
  },
  "sq-intro": {
   "voice": "sq-AL-AnilaNeural",
@@ -559,6 +583,10 @@
   "voice": "sq-AL-AnilaNeural",
   "text": "Krishtlindjet ortodokse. enj, 7 janar. Shumë të krishterë ortodoksë, për shembull nga Rusia, Serbia, Gjeorgjia, Eritrea ose Etiopia, festojnë sot Krishtlindjet."
  },
+ "sq-orange-day-2026": {
+  "voice": "sq-AL-AnilaNeural",
+  "text": "Dita Portokalli – kundër dhunës ndaj grave. mër, 25 nëntor. Dita Ndërkombëtare për Eliminimin e Dhunës ndaj Grave. Ndërtesat ndriçohen në portokalli. Ndihmë për gratë: linja 116 016 – falas, anonime, ditë e natë, në shumë gjuhë. Urgjenca 110."
+ },
  "ru-intro": {
   "voice": "ru-RU-SvetlanaNeural",
   "text": "Ближайшие события. Здесь всегда ближайшие события в Марле и окрестностях. Прошедшие даты исчезают автоматически."
@@ -638,6 +666,10 @@
  "ru-orthodox-weihnachten-2027": {
   "voice": "ru-RU-SvetlanaNeural",
   "text": "Православное Рождество. чт, 7 января. Многие православные христиане, например из России, Сербии, Грузии, Эритреи или Эфиопии, сегодня празднуют Рождество."
+ },
+ "ru-orange-day-2026": {
+  "voice": "ru-RU-SvetlanaNeural",
+  "text": "Оранжевый день – против насилия над женщинами. ср, 25 ноября. Международный день борьбы за ликвидацию насилия в отношении женщин. Здания подсвечивают оранжевым. Помощь женщинам: горячая линия 116 016 – бесплатно, анонимно, круглосуточно, на многих языках. Экстренно 110."
  },
  "fa-intro": {
   "voice": "fa-IR-DilaraNeural",
@@ -719,6 +751,10 @@
   "voice": "fa-IR-DilaraNeural",
   "text": "کریسمس ارتدکس. پنجشنبه ۷ ژانویه. بسیاری از مسیحیان ارتدکس، مثلاً از روسیه، صربستان، گرجستان، اریتره یا اتیوپی، امروز کریسمس را جشن می‌گیرند."
  },
+ "fa-orange-day-2026": {
+  "voice": "fa-IR-DilaraNeural",
+  "text": "روز نارنجی – علیه خشونت علیه زنان. چهارشنبه ۲۵ نوامبر. روز جهانی مبارزه با خشونت علیه زنان. ساختمان‌ها با رنگ نارنجی روشن می‌شوند. کمک برای زنان: خط کمک ۱۱۶۰۱۶ – رایگان، بدون نام، شبانه‌روزی، به زبان‌های مختلف. اورژانس ۱۱۰."
+ },
  "zh-intro": {
   "voice": "zh-CN-XiaoxiaoNeural",
   "text": "近期活动. 这里总是显示马尔及周边的近期活动。过去的日期会自动消失。"
@@ -798,5 +834,9 @@
  "zh-orthodox-weihnachten-2027": {
   "voice": "zh-CN-XiaoxiaoNeural",
   "text": "东正教圣诞节. 1月7日周四. 许多东正教基督徒，例如来自俄罗斯、塞尔维亚、格鲁吉亚、厄立特里亚或埃塞俄比亚的人，今天庆祝圣诞节。"
+ },
+ "zh-orange-day-2026": {
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "text": "橙色日——反对针对妇女的暴力. 11月25日周三. 消除对妇女暴力国际日。建筑物会亮起橙色灯光。妇女求助热线116 016——免费、匿名、全天候、多语种。紧急情况请拨110。"
  }
 }
