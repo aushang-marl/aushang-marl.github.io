@@ -155,8 +155,8 @@ def main():
                     "date": "Feste · Märkte · Feiertage",
                     "text": "Scanne den QR-Code: Du siehst immer die nächsten Termine in Marl und Umgebung – in deiner Sprache. Vergangene Termine verschwinden automatisch.",
                     "note": "Nur kostenlose Veranstaltungen 💚",
-                    "bg_layers": [{"src": "img/world.svg", "style": "top:18mm;left:-10mm;width:230mm;opacity:.10"},
-                                  {"src": "img/marl.png", "style": "top:162mm;left:35mm;width:140mm;opacity:.16"}],
+                    "bg_layers": [{"src": "img/world.svg", "style": "top:18mm;left:-10mm;width:230mm;opacity:.22"},
+                                  {"src": "img/marl.png", "style": "top:162mm;left:35mm;width:140mm;opacity:.32"}],
                     "photo_credit": "Karten: Crates (Welt) · TUBS / OpenStreetMap (Marl), CC BY-SA, Wikimedia Commons"}}
     (out / "poster.html").write_text(poster_html(n, svg))
     (out / "label.html").write_text(label_html(n, svg))
