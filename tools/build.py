@@ -66,6 +66,7 @@ THEMES = {
     "warm": {"bg": "#9b2226", "bg2": "#6a040f", "accent": "#ffd166", "ink": "#fffaf0"},
     "fresh": {"bg": "#1b4332", "bg2": "#081c15", "accent": "#b7e4c7", "ink": "#f1faee"},
     "info": {"bg": "#023e8a", "bg2": "#03045e", "accent": "#90e0ef", "ink": "#ffffff"},
+    "sky": {"bg": "#e3f2fd", "bg2": "#b3dcf7", "accent": "#0b5394", "ink": "#0b2545", "glow": "rgba(255,255,255,.7)"},
 }
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
@@ -198,6 +199,12 @@ def photo_style(p, i, t):
             f'url(\'{html.escape(ph)}\') {pos}/cover no-repeat;min-height:30mm"')
 
 
+def bg_layers(p):
+    """Optional faint background pictures: poster.bg_layers = [{"src": "img/x.svg", "style": "top:..;left:..;width:..;opacity:.."}]."""
+    imgs = "".join(f'<img src="{html.escape(l["src"])}" style="{html.escape(l["style"])}" alt="">' for l in p.get("bg_layers", []))
+    return f'<div class="bgl">{imgs}</div>' if imgs else ""
+
+
 def poster_html(n, svg):
     p, t = n["poster"], THEMES[n.get("theme", "night")]
     e = html.escape
@@ -210,7 +217,7 @@ def poster_html(n, svg):
 {FONTS}<style>
 @page{{size:A4;margin:0}}*{{box-sizing:border-box}}
 html,body{{margin:0;width:210mm;height:297mm}}
-body{{font-family:'Noto Sans',sans-serif;background:radial-gradient(circle at 75% 18%,rgba(255,190,60,.45),transparent 42%),linear-gradient(165deg,{t['bg']},{t['bg2']});color:{t['ink']};display:flex;flex-direction:column;padding:16mm 16mm 12mm;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+body{{font-family:'Noto Sans',sans-serif;background:radial-gradient(circle at 75% 18%,{t.get('glow','rgba(255,190,60,.45)')},transparent 42%),linear-gradient(165deg,{t['bg']},{t['bg2']});color:{t['ink']};display:flex;flex-direction:column;padding:16mm 16mm 12mm;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 .emoji{{font-size:{emoji_px}px;line-height:1;text-align:center;filter:drop-shadow(0 0 30px rgba(255,200,80,.8))}}
 .kicker{{text-align:center;text-transform:uppercase;letter-spacing:.3em;color:{t['accent']};font-weight:800;font-size:20px;margin-top:8mm}}
 h1{{text-align:center;font-size:{title_px}px;line-height:1.05;margin:3mm 0 6mm;font-weight:800}}
@@ -230,7 +237,8 @@ h1{{text-align:center;font-size:{title_px}px;line-height:1.05;margin:3mm 0 6mm;f
 .qr p{{margin:0;font-size:14px;line-height:1.5}}
 .qr .langs{{font-family:'Noto Sans','Noto Sans Arabic',sans-serif;font-size:13.5px;color:#444;margin-top:2mm}}
 .credit{{font-size:9px;opacity:.75;text-align:right;margin:-2mm 0 1.5mm}}
-{extra}</style></head><body><div class="main">
+body{{position:relative;overflow:hidden}}.main,.qr,.credit{{position:relative;z-index:1}}.bgl img{{position:absolute;z-index:0;pointer-events:none}}
+{extra}</style></head><body>{bg_layers(p)}<div class="main">
 <div class="emoji">{e(n.get('emoji',''))}</div>
 <div class="kicker">{e(p.get('kicker',''))}</div>
 <h1>{e(p['title'])}</h1>

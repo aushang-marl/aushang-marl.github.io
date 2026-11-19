@@ -1,0 +1,2 @@
+world.svg – "World map blank without borders.svg", Crates, CC BY-SA (GFDL/cc-by-sa-all), https://commons.wikimedia.org/wiki/File:World_map_blank_without_borders.svg
+marl.png  – "Marl in RE.svg", TUBS, CC BY-SA 3.0 (contains OpenStreetMap data), https://commons.wikimedia.org/wiki/File:Marl_in_RE.svg
