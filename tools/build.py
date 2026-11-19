@@ -205,12 +205,30 @@ def bg_layers(p):
     return f'<div class="bgl">{imgs}</div>' if imgs else ""
 
 
+SCAN_PHONE = [  # "Scan the QR code with your phone" in all 10 languages, for posters with poster.scan_langs = true
+    ("de", "QR-Code mit dem Handy scannen", "ltr"), ("ar", "امسح رمز QR بهاتفك", "rtl"),
+    ("en", "Scan the QR code with your phone", "ltr"), ("fr", "Scannez le code QR avec le mobile", "ltr"),
+    ("ku", "QR kodê bi telefona xwe bixwîne", "ltr"), ("tr", "QR kodu telefonunla okut", "ltr"),
+    ("sq", "Skano kodin QR me telefon", "ltr"), ("ru", "Отсканируйте QR-код телефоном", "ltr"),
+    ("fa", "کد QR را با گوشی اسکن کنید", "rtl"), ("zh", "用手机扫描二维码", "ltr"),
+]
+
+
+def scan_block(p):
+    if not p.get("scan_langs"):
+        return ""
+    rows = "".join(f'<div lang="{c}" dir="{d}">📱 {html.escape(t)}</div>' for c, t, d in SCAN_PHONE)
+    return f'<div class="scan">{rows}</div><div class="arrow">⬇</div>'
+
+
 def poster_html(n, svg):
     p, t = n["poster"], THEMES[n.get("theme", "night")]
     e = html.escape
     title_px = 80 if len(p["title"]) <= 13 else max(48, int(80 * 13 / len(p["title"])))
     emoji_px = 90 if p.get("items") else 170
     extra = ".kicker{margin-top:2mm!important}.note{font-size:20px!important;margin-top:5mm!important}.date{font-size:34px!important}.main{padding-bottom:4mm!important}" if p.get("items") else ""
+    if p.get("scan_langs"):
+        extra += ".emoji{font-size:100px!important}.kicker{margin-top:4mm!important}h1{margin:2mm 0 3mm!important}.text{margin-top:6mm!important;font-size:22px!important}.note{margin-top:4mm!important;font-size:22px!important}.main{padding-bottom:3mm!important}"
     if len(p.get("items", [])) >= 4:
         extra += ".item{padding:2.5mm 5mm!important}.item b{font-size:22px!important}.item .w{font-size:17px!important}.item .p{font-size:14px!important}.items{gap:3mm!important;margin-top:5mm!important}h1{margin:2mm 0 3mm!important}"
     return f"""<!doctype html><html lang="de"><head><meta charset="utf-8"><title>{e(p['title'])} – Plakat</title>
@@ -236,6 +254,7 @@ h1{{text-align:center;font-size:{title_px}px;line-height:1.05;margin:3mm 0 6mm;f
 .qr h3{{margin:0 0 2mm;font-size:24px}}
 .qr p{{margin:0;font-size:14px;line-height:1.5}}
 .qr .langs{{font-family:'Noto Sans','Noto Sans Arabic',sans-serif;font-size:13.5px;color:#444;margin-top:2mm}}
+.scan{{display:grid;grid-template-columns:1fr 1fr;gap:2.2mm 6mm;margin:7mm 2mm 0;font-family:'Noto Sans','Noto Sans Arabic',sans-serif;font-size:15px;font-weight:700;background:rgba(255,255,255,.4);border-radius:4mm;padding:4mm 5mm}}.scan [dir=rtl]{{text-align:right}}.arrow{{text-align:center;font-size:30px;line-height:1;margin-top:2mm}}
 .credit{{font-size:9px;opacity:.75;text-align:right;margin:-2mm 0 1.5mm}}
 body{{position:relative;overflow:hidden}}.main,.qr,.credit{{position:relative;z-index:1}}.bgl img{{position:absolute;z-index:0;pointer-events:none}}
 {extra}</style></head><body>{bg_layers(p)}<div class="main">
@@ -246,7 +265,7 @@ body{{position:relative;overflow:hidden}}.main,.qr,.credit{{position:relative;z-
 <div class="place">{e(p.get('place',''))}</div>
 {'<div class="items">'+''.join(f'<div class="item"{photo_style(p, i, t)}><b>{e(a)}</b><div class="w">{e(b)}</div><div class="p">{e(c)}</div></div>' for i,(a,b,c) in enumerate(p.get('items',[])))+'</div>' if p.get('items') else ''}
 {f'<div class="text">{e(p["text"])}</div>' if p.get('text') else ''}
-<div class="note">{e(p.get('note',''))}</div></div>
+<div class="note">{e(p.get('note',''))}</div>{scan_block(p)}</div>
 {f'<div class="credit">{e(p["photo_credit"])}</div>' if p.get('photo_credit') else ''}
 <div class="qr">{svg}<div><h3>📱 Scannen – in deiner Sprache</h3>
 <p>Mehr Infos in 10 Sprachen – auch zum Anhören 🔊</p><p class="langs">{SCAN_LINE}</p></div></div>

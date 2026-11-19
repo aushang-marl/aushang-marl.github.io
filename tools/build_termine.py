@@ -153,7 +153,7 @@ def main():
     n = {"theme": d.get("poster_theme", "sky"), "emoji": "🗓️", "langs": {"de": {"title": "Aktuelle Termine"}},
          "poster": {"kicker": "Immer aktuell · für alle", "title": "Aktuelle Termine",
                     "date": "Feste · Märkte · Feiertage",
-                    "text": "Scanne den QR-Code: Du siehst immer die nächsten Termine in Marl und Umgebung – in deiner Sprache. Vergangene Termine verschwinden automatisch.",
+                    "text": "Immer die nächsten Termine in Marl und Umgebung – in deiner Sprache.", "scan_langs": True,
                     "note": "Nur kostenlose Veranstaltungen 💚",
                     "bg_layers": [{"src": "img/world.svg", "style": "top:18mm;left:-10mm;width:230mm;opacity:.22"},
                                   {"src": "img/marl.png", "style": "top:162mm;left:35mm;width:140mm;opacity:.32"}],
